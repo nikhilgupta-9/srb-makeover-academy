@@ -1,0 +1,35 @@
+RewriteEngine On
+
+# Optional: Force HTTPS and www
+# RewriteCond %{HTTPS} off [OR]
+# RewriteCond %{HTTP_HOST} !^www\. [NC]
+# RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Rewrite Product Details URLs
+# Services pages
+RewriteRule ^services/([a-zA-Z0-9-]+)/?$ services.php?service=$1 [L,NC]
+
+# If you also want a plain /services/ URL
+RewriteRule ^services/?$ services.php [L,NC]
+
+RewriteRule ^pricing/?$ pricing.php [L,NC]
+
+RewriteRule ^portfolio/?$ portfolio.php [L,NC]
+
+RewriteRule ^about/?$ about.php [L,NC]
+
+RewriteRule ^blogs/?$ blog.php [L,NC]
+
+RewriteRule ^product-details/([^/]+)/?$ construction-services.php?alias=$1 [L,QSA]
+
+RewriteRule ^service/([^/]+)/?$ service.php?alias=$1 [L,QSA]
+
+# RewriteRule ^blogs/([^/]+)/?$ blog.php?alias=$1 [L,QSA]
+
+RewriteRule ^blog/([^/]+)/?$ blog-detail.php?alias=$1 [L,QSA]
+
+RewriteRule ^contact/?$ contact.php [L,NC]
+
+# Custom error pages (relative paths)
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
