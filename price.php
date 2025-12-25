@@ -1,3 +1,9 @@
+<?php
+include_once(__DIR__ . "/config/connect.php");
+include_once(__DIR__ . "/util/function.php");
+
+$contact = contact_us();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Complete Price List | BeautyZone</title>
     
+    <!-- FAVICONS ICON -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/plugins.css">
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
     <link rel="stylesheet" type="text/css" href="css/templete.min.css">

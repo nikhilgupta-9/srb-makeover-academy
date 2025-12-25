@@ -12,11 +12,12 @@ RewriteRule ^services/([a-zA-Z0-9-]+)/?$ services.php?service=$1 [L,NC]
 # If you also want a plain /services/ URL
 RewriteRule ^services/?$ services.php [L,NC]
 
+RewriteRule ^academy/?$ academy.php [L,NC]
 RewriteRule ^pricing/?$ pricing.php [L,NC]
 
 RewriteRule ^portfolio/?$ portfolio.php [L,NC]
 
-RewriteRule ^about/?$ about.php [L,NC]
+RewriteRule ^about-us/?$ about-us.php [L,NC]
 
 RewriteRule ^blogs/?$ blog.php [L,NC]
 

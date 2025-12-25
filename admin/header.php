@@ -61,6 +61,15 @@ if (!isset($_SESSION['admin_logged_in'])) {
         </li> -->
 
         <li>
+            <a class="has-arrow" href="#"><i class="fas fa-fire" style="color: #ff6b6b;"></i><span>Portfolio</span></a>
+            <ul>
+                <li><a href="portfolio-categories.php">Add Portfolio category</a></li>
+                <li><a href="portfolio.php">Add Portfolio</a></li>
+                <!-- <li><a href="show-products-review.php">Products Reviews</a></li> -->
+            </ul>
+        </li>
+
+        <li>
             <a class="has-arrow" href="#"><i class="fas fa-blog" style="color: #9b59b6;"></i> <span>Blogs & News</span></a>
             <ul>
                 <li><a href="add-blog.php">Add Blog</a></li>

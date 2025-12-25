@@ -31,18 +31,18 @@ $contact = contact_us();
 
 	<!-- FAVICONS -->
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="<?= $site ?>images/favicon.png">
 
 	<!-- Mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- STYLESHEETS -->
-	<link rel="stylesheet" type="text/css" href="css/plugins.css">
-	<link rel="stylesheet" type="text/css" href="css/style.min.css">
-	<link rel="stylesheet" type="text/css" href="css/templete.min.css">
-	<link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-1.css">
-	<link rel="stylesheet" type="text/css" href="css/styleSwitcher.css">
-	<link rel="stylesheet" type="text/css" href="plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+	<link rel="stylesheet" type="text/css" href="<?= $site ?>css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="<?= $site ?>css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="<?= $site ?>css/templete.min.css">
+	<link class="skin" rel="stylesheet" type="text/css" href="<?= $site ?>css/skin/skin-1.css">
+	<link rel="stylesheet" type="text/css" href="<?= $site ?>css/styleSwitcher.css">
+	<link rel="stylesheet" type="text/css" href="<?= $site ?>plugins/perfect-scrollbar/css/perfect-scrollbar.css">
 
 </head>
 
@@ -56,7 +56,7 @@ $contact = contact_us();
 		<!-- Content -->
 		<div class="page-content bg-white">
 			<!-- inner page banner -->
-			<div class="dlab-bnr-inr dlab-bnr-inr-md overlay-black-dark" style="background-image:url(images/banner/breadcrumb-bg3.png);">
+			<div class="dlab-bnr-inr dlab-bnr-inr-md overlay-black-dark" style="background-image:url(<?= $site ?>images/banner/breadcrumb-bg3.png);">
 				<div class="container">
 					<div class="dlab-bnr-inr-entry">
 						<h1 class="text-white">About Us</h1>
@@ -74,7 +74,7 @@ $contact = contact_us();
 			<!-- inner page banner END -->
 			<div class="content-block">
 				<div class="section-full content-inner overlay-white-middle"
-					style="background-image:url(images/background/bg2.png);
+					style="background-image:url(<?= $site ?>images/background/bg2.png);
 							background-position: top;
 							background-size: 100%;
 							background-repeat: no-repeat;">
@@ -149,7 +149,7 @@ $contact = contact_us();
 							<div class="col-lg-5 col-md-6 m-b30">
 								<div class="dlab-box">
 									<div class="dlab-media dlab-img-overlay5">
-										<img src="images/about/owner.png" alt="Founder of SRB Makeover & Academy">
+										<img src="<?= $site ?>images/about/owner.png" alt="Founder of SRB Makeover & Academy">
 									</div>
 								</div>
 							</div>
@@ -305,7 +305,7 @@ $contact = contact_us();
 
 				<!-- Why Chose Us -->
 				<!-- Our Pricing -->
-				<div class="section-full content-inner bg-blue-light" style="background-image:url(images/background/bg5.jpg); background-position: bottom; background-size: cover; background-repeat: no-repeat;">
+				<div class="section-full content-inner bg-blue-light" style="background-image:url(<?= $site ?>images/background/bg5.jpg); background-position: bottom; background-size: cover; background-repeat: no-repeat;">
 					<div class="container">
 						<div class="section-head text-black text-center">
 							<h2 class="text-primary m-b10">Our Pricing</h2>
@@ -429,7 +429,7 @@ $contact = contact_us();
 							<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
 								<div class="service-box text-center">
 									<div class="service-images m-b15">
-										<img src="images/our-team/pic1.jpg" alt="">
+										<img src="<?= $site ?>images/our-team/pic1.jpg" alt="">
 									</div>
 									<div class="service-content">
 										<h6 class="text-uppercase text-primary">Ann Smith</h6>
@@ -440,7 +440,7 @@ $contact = contact_us();
 							<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
 								<div class="service-box text-center">
 									<div class="service-images m-b15">
-										<img src="images/our-team/pic2.jpg" alt="">
+										<img src="<?= $site ?>images/our-team/pic2.jpg" alt="">
 									</div>
 									<div class="service-content">
 										<h6 class="text-uppercase text-primary">Mary Lucas</h6>
@@ -451,7 +451,7 @@ $contact = contact_us();
 							<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
 								<div class="service-box text-center">
 									<div class="service-images m-b15">
-										<img src="images/our-team/pic3.jpg" alt="">
+										<img src="<?= $site ?>images/our-team/pic3.jpg" alt="">
 									</div>
 									<div class="service-content">
 										<h6 class="text-uppercase text-primary">Jennifer</h6>
@@ -462,7 +462,7 @@ $contact = contact_us();
 							<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
 								<div class="service-box text-center">
 									<div class="service-images m-b15">
-										<img src="images/our-team/pic4.jpg" alt="">
+										<img src="<?= $site ?>images/our-team/pic4.jpg" alt="">
 									</div>
 									<div class="service-content">
 										<h6 class="text-uppercase text-primary">Candice Marshall</h6>
@@ -476,7 +476,7 @@ $contact = contact_us();
 				<!-- Our Professional Team -->
 				<!-- Testimonials Of Our Clients -->
 				<!-- Testimonials Of Our Clients -->
-				<div class="section-full content-inner" style="background-image:url(images/background/bg4.jpg); background-position: bottom; background-size:cover;">
+				<div class="section-full content-inner" style="background-image:url(<?= $site ?>images/background/bg4.jpg); background-position: bottom; background-size:cover;">
 					<div class="container">
 						<div class="section-head text-black text-center">
 							<h2 class="text-primary m-b10">What Our Indian Clients Say</h2>
@@ -489,7 +489,7 @@ $contact = contact_us();
 							<!-- Testimonial 1 -->
 							<div class="item p-a5">
 								<div class="testimonial-9">
-									<div class="testimonial-pic radius style1"><img src="images/testimonials/indian-client1.jpg" width="100" height="100" alt="Client"></div>
+									<div class="testimonial-pic radius style1"><img src="<?= $site ?>images/testimonials/indian-client1.jpg" width="100" height="100" alt="Client"></div>
 									<div class="testimonial-text">
 										<p>"Saumya is such a fantastic person to have your makeup done from. She's so much in sync with her brushes that the end results are outstanding. She made me look gorgeous, charming, and so lovable. I’d definitely recommend her!"</p>
 									</div>
@@ -500,7 +500,7 @@ $contact = contact_us();
 							<!-- Testimonial 2 -->
 							<div class="item p-a5">
 								<div class="testimonial-9">
-									<div class="testimonial-pic radius style1"><img src="images/testimonials/indian-client2.jpg" width="100" height="100" alt="Client"></div>
+									<div class="testimonial-pic radius style1"><img src="<?= $site ?>images/testimonials/indian-client2.jpg" width="100" height="100" alt="Client"></div>
 									<div class="testimonial-text">
 										<p>"She is exceptionally good with her brushes. She knows how to enhance a woman's beauty with minimal makeup. Saumya is clearly a virtuoso of makeup, and you can see that in her own looks too. I love her work!"</p>
 									</div>
@@ -511,7 +511,7 @@ $contact = contact_us();
 							<!-- Testimonial 3 -->
 							<div class="item p-a5">
 								<div class="testimonial-9">
-									<div class="testimonial-pic radius style1"><img src="images/testimonials/indian-client3.jpg" width="100" height="100" alt="Client"></div>
+									<div class="testimonial-pic radius style1"><img src="<?= $site ?>images/testimonials/indian-client3.jpg" width="100" height="100" alt="Client"></div>
 									<div class="testimonial-text">
 										<p>"I've had my makeup done a few times, so there was no doubt in my mind she would be my makeup artist on my wedding day! She made me feel like a princess, my makeup lasted all day, and she has such a kind, friendly, and bubbly personality."</p>
 									</div>
@@ -522,7 +522,7 @@ $contact = contact_us();
 							<!-- Testimonial 4 -->
 							<div class="item p-a5">
 								<div class="testimonial-9">
-									<div class="testimonial-pic radius style1"><img src="images/testimonials/indian-client4.jpg" width="100" height="100" alt="Client"></div>
+									<div class="testimonial-pic radius style1"><img src="<?= $site ?>images/testimonials/indian-client4.jpg" width="100" height="100" alt="Client"></div>
 									<div class="testimonial-text">
 										<p>"As someone who has struggled to find a makeup artist who understands Indian skin tones, discovering Saumya was a blessing. Her technique is unique, and she brings out hidden beauty in the most natural way possible."</p>
 									</div>
@@ -533,7 +533,7 @@ $contact = contact_us();
 							<!-- Testimonial 5 -->
 							<div class="item p-a5">
 								<div class="testimonial-9">
-									<div class="testimonial-pic radius style1"><img src="images/testimonials/indian-client5.jpg" width="100" height="100" alt="Client"></div>
+									<div class="testimonial-pic radius style1"><img src="<?= $site ?>images/testimonials/indian-client5.jpg" width="100" height="100" alt="Client"></div>
 									<div class="testimonial-text">
 										<p>"From engagement to wedding day, Saumya handled all my makeup needs with such creativity and precision. She doesn't just apply makeup; she creates art that makes you feel confident and beautiful. Highly recommended!"</p>
 									</div>

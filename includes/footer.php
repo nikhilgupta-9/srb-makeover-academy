@@ -1,3 +1,11 @@
+<?php
+include_once(__DIR__ . "/../config/connect.php");
+include_once(__DIR__ . "/../util/function.php");
+
+$contact = contact_us();
+$gallery = get_gallery();
+?>
+
 <!-- Footer -->
 <footer class="site-footer text-uppercase footer-white">
 	<!-- Our Portfolio END -->
@@ -5,86 +13,16 @@
 		<div class="container-fluid p-0">
 			<div class="row">
 				<div class="carousel-gallery dots-none owl-none owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-btn-center-lr owl-btn-1 mfp-gallery">
+					<?php
+					foreach($gallery as $g){
+					?>
 					<div class="item dlab-box">
-						<a href="images/portfolio/56.jpg.jpeg" data-source="images/portfolio/56.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Bridal Makeup">
-							<img width="205" height="184" src="images/portfolio/56.jpg.jpeg" alt="Bridal Makeup">
+						<a href="<?= $site . $g ?>" data-source="" class="mfp-link dlab-media dlab-img-overlay3" title="Bridal Makeup">
+							<img width="205" height="184" src="<?= $site . $g ?>" alt="Bridal Makeup">
 						</a>
 					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/2.jpg.jpeg" data-source="images/portfolio/22.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Hair Styling">
-							<img width="205" height="184" src="images/portfolio/2.jpg.jpeg" alt="Hair Styling">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/34.jpg.jpeg" data-source="images/portfolio/34.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Evening Makeup">
-							<img width="205" height="184" src="images/portfolio/34.jpg.jpeg" alt="Evening Makeup">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/54.jpg.jpeg" data-source="images/portfolio/54.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Professional Makeup">
-							<img width="205" height="184" src="images/portfolio/54.jpg.jpeg" alt="Professional Makeup">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/5.jpg.jpeg" data-source="images/portfolio/5.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Fashion Makeup">
-							<img width="205" height="184" src="images/portfolio/5.jpg.jpeg" alt="Fashion Makeup">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/6.jpg.jpeg" data-source="images/portfolio/61.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Natural Makeup">
-							<img width="205" height="184" src="images/portfolio/6.jpg.jpeg" alt="Natural Makeup">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/7.jpg.jpeg" data-source="images/portfolio/7.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Traditional Bridal">
-							<img width="205" height="184" src="images/portfolio/7.jpg.jpeg" alt="Traditional Bridal">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/8.jpg.jpeg" data-source="images/portfolio/8.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Modern Makeup">
-							<img width="205" height="184" src="images/portfolio/8.jpg.jpeg" alt="Modern Makeup">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/9.jpg.jpeg" data-source="images/portfolio/9.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Creative Makeup">
-							<img width="205" height="184" src="images/portfolio/9.jpg.jpeg" alt="Creative Makeup">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/10.jpg.jpeg" data-source="images/portfolio/10.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Smokey Eyes">
-							<img width="205" height="184" src="images/portfolio/10.jpg.jpeg" alt="Smokey Eyes">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/11.jpg.jpeg" data-source="images/portfolio/11.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Hair Coloring">
-							<img width="205" height="184" src="images/portfolio/11.jpg.jpeg" alt="Hair Coloring">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/12.jpg.jpeg" data-source="images/portfolio/59.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Bridal Hairstyle">
-							<img width="205" height="184" src="images/portfolio/59.jpg.jpeg" alt="Bridal Hairstyle">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/13.jpg.jpeg" data-source="images/portfolio/13.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Party Makeup">
-							<img width="205" height="184" src="images/portfolio/13.jpg.jpeg" alt="Party Makeup">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/14.jpg.jpeg" data-source="images/portfolio/14.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Skin Care">
-							<img width="205" height="184" src="images/portfolio/14.jpg.jpeg" alt="Skin Care">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/15.jpg.jpeg" data-source="images/portfolio/15.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Facial Treatment">
-							<img width="205" height="184" src="images/portfolio/15.jpg.jpeg" alt="Facial Treatment">
-						</a>
-					</div>
-					<div class="item dlab-box">
-						<a href="images/portfolio/16.jpg.jpeg" data-source="images/portfolio/16.jpg.jpeg" class="mfp-link dlab-media dlab-img-overlay3" title="Spa Therapy">
-							<img width="205" height="184" src="images/portfolio/16.jpg.jpeg" alt="Spa Therapy">
-						</a>
-					</div>
+					<?php } ?>
+					
 				</div>
 			</div>
 		</div>
@@ -97,8 +35,8 @@
 					<div class="widget widget_services border-0">
 						<h6 class="m-b20">Company</h6>
 						<ul>
-							<li><a href="index.php">Home </a></li>
-							<li><a href="about-us.php">About Us </a></li>
+							<li><a href="<?= $site ?>">Home </a></li>
+							<li><a href="<?= $site ?>about-us/">About Us </a></li>
 							<li><a href="portfolio.php">Our Portfolio</a></li>
 							<li><a href="price.php">Our Pricing</a></li>
 							<li><a href="https://wa.me/919711228980?text=Hello%20I%20am%20interested%20in%20your%20makeup%20services.%20Please%20share%20details.">Booking Now</a></li>
@@ -122,10 +60,10 @@
 					<div class="widget widget_getintuch">
 						<h6 class="m-b30">Contact us</h6>
 						<ul>
-							<li><i class="ti-location-pin"></i><strong>address</strong> A-255/1, Hari Nagar, Clock Tower, New Delhi-110064 </li>
-							<li><i class="ti-mobile"></i><strong>phone</strong><a href="tel:919711228980" class="text-dark">+91 9711228980</a> , <a href="tel:919582088035" class="text-dark">+91 9582088035</a></li>
+							<li><i class="ti-location-pin"></i><strong>address</strong> <?= $contact['address'] ?> </li>
+							<li><i class="ti-mobile"></i><strong>phone</strong><a href="tel:91<?= $contact['phone'] ?>" class="text-dark">+91 <?= $contact['phone'] ?></a> , <a href="tel:91<?= $contact['wp_number'] ?>" class="text-dark">+91 <?= $contact['wp_number'] ?></a></li>
 
-							<li><i class="ti-email"></i><strong>email</strong><a href="mail:" class="text-dark">info@example.com</a></li>
+							<li><i class="ti-email"></i><strong>email</strong><a href="mail:<?= $contact['email'] ?>" class="text-dark"><?= $contact['email'] ?></a></li>
 						</ul>
 					</div>
 				</div>
@@ -175,4 +113,3 @@
 </footer>
 <!-- Footer END-->
 <button class="scroltop fa fa-chevron-up"></button>
-
