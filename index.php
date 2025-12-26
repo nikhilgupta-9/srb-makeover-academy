@@ -44,6 +44,8 @@
 	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
 	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
 	<!-- Revolution Navigation Style -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body id="bg">
@@ -154,7 +156,7 @@
 									data-paddingleft="[0,0,0,0]"
 									style="z-index: 11;">
 									<div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%">
-										<img src="images/main-slider/slide7.png" alt="" data-ww="['965px','965px','500px','300px']" data-hh="['894px','894px','463px','278px']" width="407" height="200" data-no-retina>
+										<img src="images/main-slider/slider-7-new3.png" alt="" data-ww="['965px','965px','500px','300px']" data-hh="['894px','894px','463px','278px']" width="407" height="200" data-no-retina>
 									</div>
 								</div>
 								<!-- LAYER NR. 2 -->
@@ -445,405 +447,435 @@
 			<!-- About Us End -->
 			<!-- Our Services -->
 			<!-- Our Services -->
-				<div class="section-full content-inner-2 bg-white hair-services">
-					<div class="container">
-						<div class="section-head text-black text-center">
-							<h2 class="text-primary m-b10">Our Services</h2>
-							<div class="dlab-separator-outer m-b0">
-								<div class="dlab-separator text-primary style-icon">
-									<i class="flaticon-spa text-primary"></i>
+			<div class="section-full content-inner-2 bg-white hair-services">
+				<div class="container">
+					<div class="section-head text-black text-center">
+						<h2 class="text-primary m-b10">Our Services</h2>
+						<div class="dlab-separator-outer m-b0">
+							<div class="dlab-separator text-primary style-icon">
+								<i class="flaticon-spa text-primary"></i>
+							</div>
+						</div>
+						<p>
+							SRB Makeover & Academy specializes exclusively in professional bridal makeover
+							services and certified makeup education, delivering elegance, expertise, and
+							career-focused training across West Delhi and Delhi NCR.
+						</p>
+					</div>
+
+					<div class="row">
+						<!-- Bridal Makeup -->
+						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
+							<div class="icon-bx-wraper center p-a30">
+								<div class="icon-lg radius m-b20">
+									<a href="services-details.html" class="icon-cell">
+										<i class="flaticon-makeup"></i>
+									</a>
+								</div>
+								<div class="icon-content">
+									<h5 class="dez-tilte">
+										<a href="services-details.html">Bridal <br> Makeup</a>
+									</h5>
+									<p>
+										Signature HD and Airbrush bridal makeup crafted to enhance natural
+										beauty and create a flawless, long-lasting bridal look.
+									</p>
 								</div>
 							</div>
-							<p>
-								SRB Makeover & Academy specializes exclusively in professional bridal makeover
-								services and certified makeup education, delivering elegance, expertise, and
-								career-focused training across West Delhi and Delhi NCR.
-							</p>
 						</div>
 
-						<div class="row">
-							<!-- Bridal Makeup -->
-							<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
-								<div class="icon-bx-wraper center p-a30">
-									<div class="icon-lg radius m-b20">
-										<a href="services-details.html" class="icon-cell">
-											<i class="flaticon-makeup"></i>
-										</a>
-									</div>
-									<div class="icon-content">
-										<h5 class="dez-tilte">
-											<a href="services-details.html">Bridal <br> Makeup</a>
-										</h5>
-										<p>
-											Signature HD and Airbrush bridal makeup crafted to enhance natural
-											beauty and create a flawless, long-lasting bridal look.
-										</p>
-									</div>
+						<!-- Engagement & Reception Makeup -->
+						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
+							<div class="icon-bx-wraper center p-a30">
+								<div class="icon-lg radius m-b20">
+									<a href="services-details.html" class="icon-cell">
+										<i class="flaticon-woman-1"></i>
+									</a>
+								</div>
+								<div class="icon-content">
+									<h5 class="dez-tilte">
+										<a href="services-details.html">Engagement & Reception Makeup</a>
+									</h5>
+									<p>
+										Elegant and glamorous makeup looks designed for engagements,
+										receptions, and pre-wedding celebrations.
+									</p>
 								</div>
 							</div>
-
-							<!-- Engagement & Reception Makeup -->
-							<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
-								<div class="icon-bx-wraper center p-a30">
-									<div class="icon-lg radius m-b20">
-										<a href="services-details.html" class="icon-cell">
-											<i class="flaticon-woman-1"></i>
-										</a>
-									</div>
-									<div class="icon-content">
-										<h5 class="dez-tilte">
-											<a href="services-details.html">Engagement & Reception Makeup</a>
-										</h5>
-										<p>
-											Elegant and glamorous makeup looks designed for engagements,
-											receptions, and pre-wedding celebrations.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<!-- Bridal Hair & Draping -->
-							<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
-								<div class="icon-bx-wraper center p-a30">
-									<div class="icon-lg radius m-b20">
-										<a href="services-details.html" class="icon-cell">
-											<i class="flaticon-barbershop"></i>
-										</a>
-									</div>
-									<div class="icon-content">
-										<h5 class="dez-tilte">
-											<a href="services-details.html">Bridal Hair Styling <br> & Draping</a>
-										</h5>
-										<p>
-											Complete bridal hair styling with saree and dupatta draping to
-											perfectly complement the bridal makeup look.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<!-- Bridal Makeup Course -->
-							<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
-								<div class="icon-bx-wraper center p-a30">
-									<div class="icon-lg radius m-b20">
-										<a href="services-details.html" class="icon-cell">
-											<i class="flaticon-makeup-1"></i>
-										</a>
-									</div>
-									<div class="icon-content">
-										<h5 class="dez-tilte">
-											<a href="services-details.html">Professional Bridal Makeup Course</a>
-										</h5>
-										<p>
-											Certified bridal makeup training with live demonstrations,
-											advanced techniques, and practical hands-on experience.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<!-- Basic to Advanced Makeup Course -->
-							<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
-								<div class="icon-bx-wraper center p-a30">
-									<div class="icon-lg radius m-b20">
-										<a href="services-details.html" class="icon-cell">
-											<i class="flaticon-woman"></i>
-										</a>
-									</div>
-									<div class="icon-content">
-										<h5 class="dez-tilte">
-											<a href="services-details.html">Basic to Advanced Makeup Course</a>
-										</h5>
-										<p>
-											Step-by-step professional makeup training designed for beginners
-											and aspiring bridal makeup artists.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<!-- Self Makeup Workshop -->
-							<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
-								<div class="icon-bx-wraper center p-a30">
-									<div class="icon-lg radius m-b20">
-										<a href="services-details.html" class="icon-cell">
-											<i class="flaticon-candle-1"></i>
-										</a>
-									</div>
-									<div class="icon-content">
-										<h5 class="dez-tilte">
-											<a href="services-details.html">Self Makeup Workshops</a>
-										</h5>
-										<p>
-											Personalized self-makeup workshops focused on daily grooming
-											and special occasion makeup techniques.
-										</p>
-									</div>
-								</div>
-							</div>
-
 						</div>
+
+						<!-- Bridal Hair & Draping -->
+						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
+							<div class="icon-bx-wraper center p-a30">
+								<div class="icon-lg radius m-b20">
+									<a href="services-details.html" class="icon-cell">
+										<i class="flaticon-barbershop"></i>
+									</a>
+								</div>
+								<div class="icon-content">
+									<h5 class="dez-tilte">
+										<a href="services-details.html">Bridal Hair Styling <br> & Draping</a>
+									</h5>
+									<p>
+										Complete bridal hair styling with saree and dupatta draping to
+										perfectly complement the bridal makeup look.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Bridal Makeup Course -->
+						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
+							<div class="icon-bx-wraper center p-a30">
+								<div class="icon-lg radius m-b20">
+									<a href="services-details.html" class="icon-cell">
+										<i class="flaticon-makeup-1"></i>
+									</a>
+								</div>
+								<div class="icon-content">
+									<h5 class="dez-tilte">
+										<a href="services-details.html">Professional Bridal Makeup Course</a>
+									</h5>
+									<p>
+										Certified bridal makeup training with live demonstrations,
+										advanced techniques, and practical hands-on experience.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Basic to Advanced Makeup Course -->
+						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
+							<div class="icon-bx-wraper center p-a30">
+								<div class="icon-lg radius m-b20">
+									<a href="services-details.html" class="icon-cell">
+										<i class="flaticon-woman"></i>
+									</a>
+								</div>
+								<div class="icon-content">
+									<h5 class="dez-tilte">
+										<a href="services-details.html">Basic to Advanced Makeup Course</a>
+									</h5>
+									<p>
+										Step-by-step professional makeup training designed for beginners
+										and aspiring bridal makeup artists.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Self Makeup Workshop -->
+						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
+							<div class="icon-bx-wraper center p-a30">
+								<div class="icon-lg radius m-b20">
+									<a href="services-details.html" class="icon-cell">
+										<i class="flaticon-candle-1"></i>
+									</a>
+								</div>
+								<div class="icon-content">
+									<h5 class="dez-tilte">
+										<a href="services-details.html">Self Makeup Workshops</a>
+									</h5>
+									<p>
+										Personalized self-makeup workshops focused on daily grooming
+										and special occasion makeup techniques.
+									</p>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
-				<!-- Our Services END -->
+			</div>
+			<!-- Our Services END -->
 			<!-- Our Services -->
 
 			<!-- Video Portfolio Section -->
-<div class="section-full content-inner bg-gray">
-    <div class="container">
-        <div class="section-head text-center m-b40">
-            <h2 class="text-primary m-b10">Our Work in Action</h2>
-            <div class="dlab-separator-outer m-b0">
-                <div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
-            </div>
-            <p>Watch our professional makeup artists transform brides with expert techniques and precision</p>
-        </div>
-        
-        <div class="row g-4">
-            <!-- Video 1 -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="video-card">
-                    <div class="video-thumbnail position-relative">
-                        <img src="images/videos/bridal-makeup-thumb-1.jpg" alt="Bridal Makeup Transformation Video - SRB Makeover Delhi" class="w-100 rounded">
-                        <div class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal1">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="video-info p-3 bg-white rounded-bottom">
-                        <h5 class="mb-2">Traditional Bridal Makeup</h5>
-                        <p class="text-muted mb-0"><small>Hari Nagar, Delhi</small></p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Video 2 -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="video-card">
-                    <div class="video-thumbnail position-relative">
-                        <img src="images/videos/hd-makeup-thumb-2.jpg" alt="HD Makeup Tutorial - SRB Makeover Academy Delhi" class="w-100 rounded">
-                        <div class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal2">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="video-info p-3 bg-white rounded-bottom">
-                        <h5 class="mb-2">HD Makeup Tutorial</h5>
-                        <p class="text-muted mb-0"><small>Janakpuri Studio</small></p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Video 3 -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="video-card">
-                    <div class="video-thumbnail position-relative">
-                        <img src="images/videos/airbrush-makeup-thumb-3.jpg" alt="Airbrush Makeup Demo - SRB Academy West Delhi" class="w-100 rounded">
-                        <div class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal3">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="video-info p-3 bg-white rounded-bottom">
-                        <h5 class="mb-2">Airbrush Makeup Demo</h5>
-                        <p class="text-muted mb-0"><small>Tilak Nagar Branch</small></p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Video 4 -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="video-card">
-                    <div class="video-thumbnail position-relative">
-                        <img src="images/videos/party-makeup-thumb-4.jpg" alt="Party Makeup Transformation - SRB Makeover Rajouri Garden" class="w-100 rounded">
-                        <div class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal4">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="video-info p-3 bg-white rounded-bottom">
-                        <h5 class="mb-2">Party Makeup Transformation</h5>
-                        <p class="text-muted mb-0"><small>Rajouri Garden</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- View More Button -->
-        <div class="text-center mt-5">
-            <a href="https://www.youtube.com/channel/YOUR_CHANNEL" target="_blank" class="site-button radius-xl">
-                <i class="fab fa-youtube me-2"></i> View More Videos on YouTube
-            </a>
-        </div>
-    </div>
-</div>
+			<div class="section-full content-inner bg-gray">
+				<div class="container">
+					<div class="section-head text-center m-b40">
+						<h2 class="text-primary m-b10">Our Work in Action</h2>
+						<div class="dlab-separator-outer m-b0">
+							<div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
+						</div>
+						<p>Watch our professional makeup artists transform brides with expert techniques and precision</p>
+					</div>
 
-<!-- Video Modals -->
-<!-- Modal 1 -->
-<div class="modal fade" id="videoModal1" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Traditional Bridal Makeup Transformation</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1" 
-                            title="Traditional Bridal Makeup by SRB Makeover Delhi" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                    </iframe>
-                </div>
-                <div class="mt-3">
-                    <h6>About This Video:</h6>
-                    <p>Watch our expert makeup artist create a stunning traditional bridal look for a wedding in Hari Nagar, Delhi.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+					<div class="row g-4">
+						<!-- Video 1 -->
+						<div class="col-lg-3 col-md-6 col-sm-6 col-6">
+							<div class="video-card">
+								<div class="video-thumbnail position-relative">
+									<video
+										class="w-100 rounded"
+										autoplay
+										muted
+										loop
+										playsinline
+										preload="metadata">
+										<source src="<?= $site ?>images/videos/v4.mp4" type="video/mp4">
+									</video>
+								</div>
+								<div class="video-info p-3 bg-white rounded-bottom">
+									<h5 class="mb-2">Traditional Bridal Makeup</h5>
+									<p class="text-muted mb-0"><small>Hari Nagar, Delhi</small></p>
+								</div>
+							</div>
+						</div>
 
-<!-- Modal 2 -->
-<div class="modal fade" id="videoModal2" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">HD Makeup Tutorial</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" 
-                            title="HD Makeup Tutorial by SRB Makeover Academy" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                    </iframe>
-                </div>
-                <div class="mt-3">
-                    <h6>About This Video:</h6>
-                    <p>Learn HD makeup techniques from our professional makeup academy in Janakpuri.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+						<!-- Video 2 -->
+						<div class="col-lg-3 col-md-6 col-sm-6 col-6">
+							<div class="video-card">
+								<div class="video-thumbnail position-relative">
+									<video
+										class="w-100 rounded"
+										autoplay
+										muted
+										loop
+										playsinline
+										preload="metadata">
+										<source src="<?= $site ?>images/videos/v1.mp4" type="video/mp4">
+									</video>
+								</div>
+								<div class="video-info p-3 bg-white rounded-bottom">
+									<h5 class="mb-2">HD Makeup Tutorial</h5>
+									<p class="text-muted mb-0"><small>Janakpuri Studio</small></p>
+								</div>
+							</div>
+						</div>
 
-<!-- Modal 3 -->
-<div class="modal fade" id="videoModal3" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Airbrush Makeup Demonstration</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3" 
-                            title="Airbrush Makeup Demo - SRB Academy West Delhi" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                    </iframe>
-                </div>
-                <div class="mt-3">
-                    <h6>About This Video:</h6>
-                    <p>Professional airbrush makeup demonstration at our Tilak Nagar branch.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+						<!-- Video 3 -->
+						<div class="col-lg-3 col-md-6 col-sm-6 col-6">
+							<div class="video-card">
+								<div class="video-thumbnail position-relative">
+									<video
+										class="w-100 rounded"
+										autoplay
+										muted
+										loop
+										playsinline
+										preload="metadata">
+										<source src="<?= $site ?>images/videos/v3.mp4" type="video/mp4">
+									</video>
+								</div>
+								<div class="video-info p-3 bg-white rounded-bottom">
+									<h5 class="mb-2">Airbrush Makeup Demo</h5>
+									<p class="text-muted mb-0"><small>Tilak Nagar Branch</small></p>
+								</div>
+							</div>
+						</div>
 
-<!-- Modal 4 -->
-<div class="modal fade" id="videoModal4" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Party Makeup Transformation</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_4" 
-                            title="Party Makeup Transformation - SRB Makeover Rajouri Garden" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                    </iframe>
-                </div>
-                <div class="mt-3">
-                    <h6>About This Video:</h6>
-                    <p>Evening party makeup transformation session at our Rajouri Garden studio.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+						<!-- Video 4 -->
+						<div class="col-lg-3 col-md-6 col-sm-6 col-6">
+							<div class="video-card">
+								<div class="video-thumbnail position-relative">
+									<video
+										class="w-100 rounded"
+										autoplay
+										muted
+										loop
+										playsinline
+										preload="metadata">
+										<source src="<?= $site ?>images/videos/v2.mp4" type="video/mp4">
+									</video>
+								</div>
+								<div class="video-info p-3 bg-white rounded-bottom">
+									<h5 class="mb-2">Party Makeup Transformation</h5>
+									<p class="text-muted mb-0"><small>Rajouri Garden</small></p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-<style>
-.video-card {
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-    height: 100%;
-}
-.video-card:hover {
-    transform: translateY(-10px);
-}
-.video-thumbnail {
-    height: 200px;
-    overflow: hidden;
-}
-.video-thumbnail img {
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-.video-card:hover .video-thumbnail img {
-    transform: scale(1.05);
-}
-.video-play-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
-    background: rgba(255, 107, 107, 0.9);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.video-play-btn:hover {
-    background: rgba(255, 107, 107, 1);
-    transform: translate(-50%, -50%) scale(1.1);
-}
-.video-info {
-    border-top: 3px solid #ff6b6b;
-}
-.video-info h5 {
-    font-size: 16px;
-    line-height: 1.4;
-    min-height: 45px;
-}
-.modal-content {
-    border-radius: 15px;
-    overflow: hidden;
-}
-.modal-header {
-    background: #ff6b6b;
-    color: white;
-    border-bottom: none;
-}
-.modal-header .btn-close {
-    filter: invert(1);
-}
-</style>
+					<!-- View More Button -->
+					<div class="text-center mt-5">
+						<a href="https://www.youtube.com/channel/YOUR_CHANNEL" target="_blank" class="btn btn-outline-primary radius-xl">
+							<i class="fab fa-youtube me-2 text-danger"></i> View More Videos on YouTube
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Video Modals -->
+			<!-- Modal 1 -->
+			<div class="modal fade" id="videoModal1" tabindex="-1" aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Traditional Bridal Makeup Transformation</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						</div>
+						<div class="modal-body">
+							<div class="ratio ratio-16x9">
+								<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1"
+									title="Traditional Bridal Makeup by SRB Makeover Delhi"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="mt-3">
+								<h6>About This Video:</h6>
+								<p>Watch our expert makeup artist create a stunning traditional bridal look for a wedding in Hari Nagar, Delhi.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal 2 -->
+			<div class="modal fade" id="videoModal2" tabindex="-1" aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">HD Makeup Tutorial</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						</div>
+						<div class="modal-body">
+							<div class="ratio ratio-16x9">
+								<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2"
+									title="HD Makeup Tutorial by SRB Makeover Academy"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="mt-3">
+								<h6>About This Video:</h6>
+								<p>Learn HD makeup techniques from our professional makeup academy in Janakpuri.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal 3 -->
+			<div class="modal fade" id="videoModal3" tabindex="-1" aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Airbrush Makeup Demonstration</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						</div>
+						<div class="modal-body">
+							<div class="ratio ratio-16x9">
+								<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3"
+									title="Airbrush Makeup Demo - SRB Academy West Delhi"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="mt-3">
+								<h6>About This Video:</h6>
+								<p>Professional airbrush makeup demonstration at our Tilak Nagar branch.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal 4 -->
+			<div class="modal fade" id="videoModal4" tabindex="-1" aria-hidden="true">
+				<div class="modal-dialog modal-lg modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Party Makeup Transformation</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						</div>
+						<div class="modal-body">
+							<div class="ratio ratio-16x9">
+								<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_4"
+									title="Party Makeup Transformation - SRB Makeover Rajouri Garden"
+									frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="mt-3">
+								<h6>About This Video:</h6>
+								<p>Evening party makeup transformation session at our Rajouri Garden studio.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<style>
+				.video-card {
+					border-radius: 10px;
+					overflow: hidden;
+					box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+					transition: transform 0.3s ease;
+					height: 100%;
+				}
+
+				.video-card:hover {
+					transform: translateY(-10px);
+				}
+
+				.video-thumbnail {
+					height: 450px;
+					overflow: hidden;
+				}
+
+				.video-thumbnail img {
+					height: 100%;
+					object-fit: cover;
+					transition: transform 0.5s ease;
+				}
+
+				.video-card:hover .video-thumbnail img {
+					transform: scale(1.05);
+				}
+
+				.video-play-btn {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					width: 60px;
+					height: 60px;
+					background: rgba(255, 107, 107, 0.9);
+					border-radius: 50%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: white;
+					font-size: 24px;
+					cursor: pointer;
+					transition: all 0.3s ease;
+				}
+
+				.video-play-btn:hover {
+					background: rgba(255, 107, 107, 1);
+					transform: translate(-50%, -50%) scale(1.1);
+				}
+
+				.video-info {
+					border-top: 3px solid #ff6b6b;
+				}
+
+				.video-info h5 {
+					font-size: 16px;
+					line-height: 1.4;
+				}
+
+				.modal-content {
+					border-radius: 15px;
+					overflow: hidden;
+				}
+
+				.modal-header {
+					background: #ff6b6b;
+					color: white;
+					border-bottom: none;
+				}
+
+				.modal-header .btn-close {
+					filter: invert(1);
+				}
+			</style>
 
 			<!-- Hair Services Section -->
 			<div class="section-full bg-white content-inner-2 bridal-about" style="background-image:url(images/background/bg10.jpg);">
@@ -914,7 +946,7 @@
 							</div>
 						</div>
 
-						
+
 
 						<!-- Service 4: Hair Curling -->
 						<div class="item">
@@ -1342,43 +1374,43 @@
 
 			<!-- Why Chose Us -->
 			<!-- Dynamic Bridal Portfolio Section -->
-<div class="section-full content-inner-1 bridal-portfolio" style="background-image:url(images/background/bg10.jpg); background-size: 100%; background-repeat:no-repeat;">
-    <div class="container-fluid p-0">
-        <div class="section-head text-black text-center bridal-head">
-            <h5 class="text-primary">Bridal Portfolio</h5>
-            <h2 class="m-b10">Our Portfolio</h2>
-            <p class="m-b0">Explore our stunning bridal makeup transformations. We specialize in creating timeless beauty for your special day.</p>
-        </div>
-        
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="site-filters style1 clearfix center">
-                    <ul class="filters" data-toggle="buttons">
-                        <li data-filter="" class="btn active">
-                            <input type="radio">
-                            <a href="#"><span>All</span></a>
-                        </li>
-                        <li data-filter="bridal" class="btn">
-                            <input type="radio">
-                            <a href="#"><span>Bridal Makeup</span></a>
-                        </li>
-                        <li data-filter="birthday" class="btn">
-                            <input type="radio">
-                            <a href="#"><span>Coloring</span></a>
-                        </li>
-                        <li data-filter="party" class="btn">
-                            <input type="radio">
-                            <a href="#"><span>Heighlights</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
-        <div class="clearfix">
-            <?php
-            // Fetch portfolio items for homepage (limit 20, random order)
-            $home_portfolio_query = "
+			<div class="section-full content-inner-1 bridal-portfolio" style="background-image:url(images/background/bg10.jpg); background-size: 100%; background-repeat:no-repeat;">
+				<div class="container-fluid p-0">
+					<div class="section-head text-black text-center bridal-head">
+						<h5 class="text-primary">Bridal Portfolio</h5>
+						<h2 class="m-b10">Our Portfolio</h2>
+						<p class="m-b0">Explore our stunning bridal makeup transformations. We specialize in creating timeless beauty for your special day.</p>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="site-filters style1 clearfix center">
+								<ul class="filters" data-toggle="buttons">
+									<li data-filter="" class="btn active">
+										<input type="radio">
+										<a href="#"><span>All</span></a>
+									</li>
+									<li data-filter="bridal" class="btn">
+										<input type="radio">
+										<a href="#"><span>Bridal Makeup</span></a>
+									</li>
+									<li data-filter="birthday" class="btn">
+										<input type="radio">
+										<a href="#"><span>Coloring</span></a>
+									</li>
+									<li data-filter="party" class="btn">
+										<input type="radio">
+										<a href="#"><span>Heighlights</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="clearfix">
+						<?php
+						// Fetch portfolio items for homepage (limit 20, random order)
+						$home_portfolio_query = "
                 SELECT p.*, c.name as category_name, c.slug as category_slug 
                 FROM portfolio_items p 
                 LEFT JOIN portfolio_categories c ON p.category_id = c.id 
@@ -1387,162 +1419,165 @@
                 ORDER BY RAND()
                 LIMIT 20
             ";
-            
-            $home_portfolio_result = mysqli_query($conn, $home_portfolio_query);
-            
-            if(mysqli_num_rows($home_portfolio_result) > 0):
-            ?>
-                <ul id="masonry" class="row sp15 portfolio-box dlab-gallery-listing gallery-grid-4 gallery lightgallery">
-                    <?php 
-                    $category_mapping = [
-                        'bridal-makeup' => 'bridal',
-                        'makeup' => 'bridal',
-                        'haircuts' => 'party',
-                        'coloring' => 'party',
-                        'highlights' => 'party'
-                    ];
-                    
-                    while($item = mysqli_fetch_assoc($home_portfolio_result)): 
-                        $image_path = $site . "admin/uploads/portfolio/" . $item['image_path'];
-                        $category_slug = isset($item['category_slug']) ? $item['category_slug'] : '';
-                        $portfolio_class = isset($category_mapping[$category_slug]) ? $category_mapping[$category_slug] : 'bridal';
-                    ?>
-                        <li class="<?= $portfolio_class ?> card-container col-lg-3 col-md-6 col-sm-6 m-b15">
-                            <div class="dlab-box">
-                                <div class="dlab-media">
-                                    <img src="<?= $image_path ?>" alt="<?= htmlspecialchars($item['title']) ?>">
-                                    <div class="overlay-bx">
-                                        <div class="spa-port-bx">
-                                            <div>
-                                                <h4><a href="portfolio.php"><?= htmlspecialchars($item['title']) ?></a></h4>
-                                                <?php if($item['description']): ?>
-                                                    <p><?= substr(htmlspecialchars($item['description']), 0, 60) ?>...</p>
-                                                <?php endif; ?>
-                                                <span data-exthumbimage="<?= $image_path ?>" 
-                                                      data-src="<?= $image_path ?>" 
-                                                      class="check-km" 
-                                                      title="<?= htmlspecialchars($item['title']) ?>">
-                                                    <i class="ti-fullscreen"></i>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    <?php endwhile; ?>
-                </ul>
-                
-                <!-- View All Button -->
-                <div class="text-center mt-4">
-                    <a href="portfolio.php" class="btn btn-primary">
-                        <i class="fas fa-images me-2"></i> View Complete Portfolio
-                    </a>
-                </div>
-            <?php else: ?>
-                <!-- Fallback to static images if no database items -->
-                <ul id="masonry" class="row sp15 portfolio-box dlab-gallery-listing gallery-grid-4 gallery lightgallery">
-                    <?php 
-                    $static_images = [
-                        ['src' => 'images/portfolio/61.jpg.jpeg', 'class' => 'bridal', 'title' => 'Traditional Bridal Makeup'],
-                        ['src' => 'images/portfolio/70.jpg', 'class' => 'bridal', 'title' => 'Contemporary Bridal Look'],
-                        ['src' => 'images/portfolio/52.jpg.jpeg', 'class' => 'bridal', 'title' => 'Royal Wedding Makeup'],
-                        ['src' => 'images/portfolio/36.jpg.jpeg', 'class' => 'birthday', 'title' => 'Birthday Party Makeup'],
-                        ['src' => 'images/portfolio/29.jpg.jpeg', 'class' => 'bridal', 'title' => 'Mehndi Function Makeup'],
-                        ['src' => 'images/portfolio/43.jpg.jpeg', 'class' => 'party', 'title' => 'Cocktail Party Makeup'],
-                        ['src' => 'images/portfolio/34.jpg.jpeg', 'class' => 'party', 'title' => 'Evening Party Makeup'],
-                        ['src' => 'images/portfolio/20.jpg.jpeg', 'class' => 'bridal', 'title' => 'Sangeet Night Makeup'],
-                    ];
-                    
-                    foreach($static_images as $img):
-                    ?>
-                        <li class="<?= $img['class'] ?> card-container col-lg-3 col-md-6 col-sm-6 m-b15">
-                            <div class="dlab-box">
-                                <div class="dlab-media">
-                                    <img src="<?= $img['src'] ?>" alt="<?= $img['title'] ?>">
-                                    <div class="overlay-bx">
-                                        <div class="spa-port-bx">
-                                            <div>
-                                                <h4><a href="portfolio.php"><?= $img['title'] ?></a></h4>
-                                                <p>Professional makeup by SRB Makeover & Academy</p>
-                                                <span data-exthumbimage="<?= $img['src'] ?>" 
-                                                      data-src="<?= $img['src'] ?>" 
-                                                      class="check-km" 
-                                                      title="<?= $img['title'] ?>">
-                                                    <i class="ti-fullscreen"></i>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-            <?php endif; ?>
-        </div>
-    </div>
-</div>
 
-<!-- Add this CSS for filtering -->
-<style>
-.bridal-portfolio .filters li.active {
-    background-color: #ff6b6b;
-    color: white;
-}
-.bridal-portfolio .filters li {
-    margin: 0 5px;
-    cursor: pointer;
-}
-.bridal-portfolio .check-km {
-    cursor: pointer;
-    color: white;
-    font-size: 20px;
-}
-.bridal-portfolio .check-km:hover {
-    color: #ff6b6b;
-}
-</style>
+						$home_portfolio_result = mysqli_query($conn, $home_portfolio_query);
 
-<!-- Add this JavaScript for filtering -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Portfolio filtering for homepage
-    const portfolioFilters = document.querySelectorAll('.bridal-portfolio .filters li');
-    const portfolioItems = document.querySelectorAll('.bridal-portfolio .card-container');
-    
-    portfolioFilters.forEach(filter => {
-        filter.addEventListener('click', function() {
-            // Remove active class from all filters
-            portfolioFilters.forEach(f => f.classList.remove('active'));
-            
-            // Add active class to clicked filter
-            this.classList.add('active');
-            
-            // Get filter value
-            const filterValue = this.getAttribute('data-filter');
-            
-            // Show/hide items
-            portfolioItems.forEach(item => {
-                if(filterValue === '' || item.classList.contains(filterValue)) {
-                    item.style.display = 'block';
-                } else {
-                    item.style.display = 'none';
-                }
-            });
-        });
-    });
-    
-    // Initialize lightgallery if available
-    if(typeof lightGallery !== 'undefined') {
-        lightGallery(document.getElementById('masonry'), {
-            selector: '.check-km',
-            download: false,
-            counter: false
-        });
-    }
-});
-</script>
+						if (mysqli_num_rows($home_portfolio_result) > 0):
+						?>
+							<ul id="masonry" class="row sp15 portfolio-box dlab-gallery-listing gallery-grid-4 gallery lightgallery">
+								<?php
+								$category_mapping = [
+									'bridal-makeup' => 'bridal',
+									'makeup' => 'bridal',
+									'haircuts' => 'party',
+									'coloring' => 'party',
+									'highlights' => 'party'
+								];
+
+								while ($item = mysqli_fetch_assoc($home_portfolio_result)):
+									$image_path = $site . "admin/uploads/portfolio/" . $item['image_path'];
+									$category_slug = isset($item['category_slug']) ? $item['category_slug'] : '';
+									$portfolio_class = isset($category_mapping[$category_slug]) ? $category_mapping[$category_slug] : 'bridal';
+								?>
+									<li class="<?= $portfolio_class ?> card-container col-lg-3 col-md-6 col-sm-6 m-b15">
+										<div class="dlab-box">
+											<div class="dlab-media">
+												<img src="<?= $image_path ?>" alt="<?= htmlspecialchars($item['title']) ?>">
+												<div class="overlay-bx">
+													<div class="spa-port-bx">
+														<div>
+															<h4><a href="portfolio.php"><?= htmlspecialchars($item['title']) ?></a></h4>
+															<?php if ($item['description']): ?>
+																<p><?= substr(htmlspecialchars($item['description']), 0, 60) ?>...</p>
+															<?php endif; ?>
+															<span data-exthumbimage="<?= $image_path ?>"
+																data-src="<?= $image_path ?>"
+																class="check-km"
+																title="<?= htmlspecialchars($item['title']) ?>">
+																<i class="ti-fullscreen"></i>
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								<?php endwhile; ?>
+							</ul>
+
+							<!-- View All Button -->
+							<div class="text-center mt-4">
+								<a href="portfolio.php" class="btn btn-primary radius-xl">
+									<i class="fas fa-images me-2"></i> View Complete Portfolio
+								</a>
+							</div>
+						<?php else: ?>
+							<!-- Fallback to static images if no database items -->
+							<ul id="masonry" class="row sp15 portfolio-box dlab-gallery-listing gallery-grid-4 gallery lightgallery">
+								<?php
+								$static_images = [
+									['src' => 'images/portfolio/61.jpg.jpeg', 'class' => 'bridal', 'title' => 'Traditional Bridal Makeup'],
+									['src' => 'images/portfolio/70.jpg', 'class' => 'bridal', 'title' => 'Contemporary Bridal Look'],
+									['src' => 'images/portfolio/52.jpg.jpeg', 'class' => 'bridal', 'title' => 'Royal Wedding Makeup'],
+									['src' => 'images/portfolio/36.jpg.jpeg', 'class' => 'birthday', 'title' => 'Birthday Party Makeup'],
+									['src' => 'images/portfolio/29.jpg.jpeg', 'class' => 'bridal', 'title' => 'Mehndi Function Makeup'],
+									['src' => 'images/portfolio/43.jpg.jpeg', 'class' => 'party', 'title' => 'Cocktail Party Makeup'],
+									['src' => 'images/portfolio/34.jpg.jpeg', 'class' => 'party', 'title' => 'Evening Party Makeup'],
+									['src' => 'images/portfolio/20.jpg.jpeg', 'class' => 'bridal', 'title' => 'Sangeet Night Makeup'],
+								];
+
+								foreach ($static_images as $img):
+								?>
+									<li class="<?= $img['class'] ?> card-container col-lg-3 col-md-6 col-sm-6 m-b15">
+										<div class="dlab-box">
+											<div class="dlab-media">
+												<img src="<?= $img['src'] ?>" alt="<?= $img['title'] ?>">
+												<div class="overlay-bx">
+													<div class="spa-port-bx">
+														<div>
+															<h4><a href="portfolio.php"><?= $img['title'] ?></a></h4>
+															<p>Professional makeup by SRB Makeover & Academy</p>
+															<span data-exthumbimage="<?= $img['src'] ?>"
+																data-src="<?= $img['src'] ?>"
+																class="check-km"
+																title="<?= $img['title'] ?>">
+																<i class="ti-fullscreen"></i>
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								<?php endforeach; ?>
+							</ul>
+						<?php endif; ?>
+					</div>
+				</div>
+			</div>
+
+			<!-- Add this CSS for filtering -->
+			<style>
+				.bridal-portfolio .filters li.active {
+					background-color: #ff6b6b;
+					color: white;
+				}
+
+				.bridal-portfolio .filters li {
+					margin: 0 5px;
+					cursor: pointer;
+				}
+
+				.bridal-portfolio .check-km {
+					cursor: pointer;
+					color: white;
+					font-size: 20px;
+				}
+
+				.bridal-portfolio .check-km:hover {
+					color: #ff6b6b;
+				}
+			</style>
+
+			<!-- Add this JavaScript for filtering -->
+			<script>
+				document.addEventListener('DOMContentLoaded', function() {
+					// Portfolio filtering for homepage
+					const portfolioFilters = document.querySelectorAll('.bridal-portfolio .filters li');
+					const portfolioItems = document.querySelectorAll('.bridal-portfolio .card-container');
+
+					portfolioFilters.forEach(filter => {
+						filter.addEventListener('click', function() {
+							// Remove active class from all filters
+							portfolioFilters.forEach(f => f.classList.remove('active'));
+
+							// Add active class to clicked filter
+							this.classList.add('active');
+
+							// Get filter value
+							const filterValue = this.getAttribute('data-filter');
+
+							// Show/hide items
+							portfolioItems.forEach(item => {
+								if (filterValue === '' || item.classList.contains(filterValue)) {
+									item.style.display = 'block';
+								} else {
+									item.style.display = 'none';
+								}
+							});
+						});
+					});
+
+					// Initialize lightgallery if available
+					if (typeof lightGallery !== 'undefined') {
+						lightGallery(document.getElementById('masonry'), {
+							selector: '.check-km',
+							download: false,
+							counter: false
+						});
+					}
+				});
+			</script>
 			<!-- Why Chose Us End -->
 			<!-- Our Professional Team -->
 			<div class="section-full content-inner-2 bridal-testimonial" style="background-image:url(images/background/bg10.jpg); background-size: 100%; background-repeat:no-repeat;">
@@ -1584,7 +1619,7 @@ document.addEventListener('DOMContentLoaded', function() {
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 		<!-- Content END-->
 		<?php
