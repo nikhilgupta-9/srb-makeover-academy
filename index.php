@@ -14,7 +14,6 @@
 	<meta name="description" content="BeautyZone : Beauty Spa Salon HTML Template">
 	<meta property="og:title" content="BeautyZone : Beauty Spa Salon HTML Template">
 	<meta property="og:description" content="BeautyZone : Beauty Spa Salon HTML Template">
-	<meta property="og:image" content="http://beautyzone.dexignzone.com/xhtml/error-404.html">
 	<meta name="format-detection" content="telephone=no">
 
 	<!-- FAVICONS ICON -->
@@ -45,8 +44,89 @@
 	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
 	<!-- Revolution Navigation Style -->
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 </head>
+<style>
+				.video-card {
+					border-radius: 10px;
+					overflow: hidden;
+					box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+					transition: transform 0.3s ease;
+					height: 100%;
+				}
+
+				.video-card:hover {
+					transform: translateY(-10px);
+				}
+
+				.video-thumbnail {
+					height: 450px;
+					overflow: hidden;
+				}
+
+				.video-thumbnail img {
+					height: 100%;
+					object-fit: cover;
+					transition: transform 0.5s ease;
+				}
+
+				.video-card:hover .video-thumbnail img {
+					transform: scale(1.05);
+				}
+
+				.video-play-btn {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					width: 60px;
+					height: 60px;
+					background: rgba(255, 107, 107, 0.9);
+					border-radius: 50%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: white;
+					font-size: 24px;
+					cursor: pointer;
+					transition: all 0.3s ease;
+				}
+
+				.video-play-btn:hover {
+					background: rgba(255, 107, 107, 1);
+					transform: translate(-50%, -50%) scale(1.1);
+				}
+
+				.video-info {
+					border-top: 3px solid #ff6b6b;
+				}
+
+				.video-info h5 {
+					font-size: 16px;
+					line-height: 1.4;
+				}
+
+				.modal-content {
+					border-radius: 15px;
+					overflow: hidden;
+				}
+
+				.modal-header {
+					background: #ff6b6b;
+					color: white;
+					border-bottom: none;
+				}
+
+				.modal-header .btn-close {
+					filter: invert(1);
+				}
+
+				@media (max-width: 754px) {
+					.video-thumbnail {
+						height: 280px;
+					}
+				}
+			</style>
 
 <body id="bg">
 	<div class="page-wraper">
@@ -187,7 +267,7 @@
 									</div>
 								</div>
 								<!-- LAYER NR. 3 -->
-								<div class="tp-caption  "
+								<div class="tp-caption  mb-2"
 									id="slide-3204-layer-3"
 									data-x="['center','center','middle','middle']"
 									data-hoffset="['-255','-245','0','0']"
@@ -209,7 +289,7 @@
 									data-paddingbottom="[0,0,0,0]"
 									data-paddingleft="[0,0,0,0]"
 									style="z-index: 7; white-space: normal; color:#fff; font-family:'Montserrat', sans-serif; border-width:0px; font-weight:400;">
-									Saumya Batra, a makeup artist by profession, is an expert in providing the unmatched makeup and hairstyling services for all occasion’s namely engagement, weddings, receptions, events, fashion shows, video shoots, television commercials, workshops, and advertising campaigns.
+									Saumya Batra, a makeup artist by profession, is an expert in providing services for all occasion’s namely engagement, weddings, receptions, events, fashion shows, video shoots, television commercials, workshops, and advertising campaigns.
 								</div>
 								<!-- LAYER NR. 5 -->
 								<a class="tp-caption rev-btn tp-resizeme"
@@ -292,7 +372,7 @@
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="services-details.html">Bridal Makeup</a></h6>
 										<p>Complete bridal transformation for weddings, engagements & receptions with flawless, long-lasting makeup.</p>
-										<div class="service-price-tag">₹7,000 - ₹15,000</div>
+										<div class="service-price-tag">₹7,000 - ₹25,000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
@@ -311,12 +391,12 @@
 								</div>
 								<div class="dlab-media">
 									<a href="services-details.html">
-										<img src="images/portfolio/11.jpg.jpeg" alt="Makeup and Styling Service">
+										<img src="images/portfolio/m1.png" alt="Makeup and Styling Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="services-details.html">Makeup & Styling</a></h6>
 										<p>Professional makeup for events, fashion shows, video shoots, commercials, workshops & advertising campaigns.</p>
-										<div class="service-price-tag">₹750 - ₹5,500</div>
+										<div class="service-price-tag">₹2000 - ₹7,500</div>
 									</div>
 								</div>
 							</div>
@@ -327,12 +407,12 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
 									<a href="services-details.html">
-										<img src="images/portfolio/3.jpg.jpeg" alt="Facial Treatment Service">
+										<img src="images/portfolio/m2.png" alt="Facial Treatment Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="services-details.html">Facial Treatments</a></h6>
 										<p>Revitalizing facials customized for different skin types, leaving your skin glowing and rejuvenated.</p>
-										<div class="service-price-tag">₹350 - ₹3,500</div>
+										<div class="service-price-tag">₹550 - ₹3,500</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
@@ -356,7 +436,7 @@
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="services-details.html">Hair Styling</a></h6>
 										<p>Professional hair styling for all occasions. From simple looks to elaborate bridal hairstyles.</p>
-										<div class="service-price-tag">₹100 - ₹1,000</div>
+										<div class="service-price-tag">₹500 - ₹2,000</div>
 									</div>
 								</div>
 							</div>
@@ -412,7 +492,7 @@
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="services-details.html">Hair Spa</a></h6>
 										<p>Deep conditioning treatment for damaged hair. Restores shine, strength and vitality to your hair.</p>
-										<div class="service-price-tag">₹400 - ₹1,200</div>
+										<div class="service-price-tag">₹500 - ₹2,000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
@@ -431,7 +511,7 @@
 								</div>
 								<div class="dlab-media">
 									<a href="services-details.html">
-										<img src="images/portfolio/70.jpg" alt="Pre-Bridal Package Service">
+										<img src="images/gallery/b14.jpeg" alt="Pre-Bridal Package Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="services-details.html">Pre-Bridal Package</a></h6>
@@ -445,7 +525,7 @@
 				</div>
 			</div>
 			<!-- About Us End -->
-			<!-- Our Services -->
+
 			<!-- Our Services -->
 			<div class="section-full content-inner-2 bg-white hair-services">
 				<div class="container">
@@ -469,7 +549,7 @@
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
 									<a href="services-details.html" class="icon-cell">
-										<i class="flaticon-makeup"></i>
+										<img src="images/collage/pic1.jpg" alt="Bridal Makeup Service" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
@@ -480,6 +560,9 @@
 										Signature HD and Airbrush bridal makeup crafted to enhance natural
 										beauty and create a flawless, long-lasting bridal look.
 									</p>
+									<div class="mt-3">
+										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -489,7 +572,7 @@
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
 									<a href="services-details.html" class="icon-cell">
-										<i class="flaticon-woman-1"></i>
+										<img src="images/our-services/s1.png" alt="Engagement & Reception Makeup Service" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
@@ -500,6 +583,9 @@
 										Elegant and glamorous makeup looks designed for engagements,
 										receptions, and pre-wedding celebrations.
 									</p>
+									<div class="mt-3">
+										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -509,7 +595,7 @@
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
 									<a href="services-details.html" class="icon-cell">
-										<i class="flaticon-barbershop"></i>
+										<img src="images/our-services/s2.png" alt="Bridal Hair Styling & Draping Service" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
@@ -520,6 +606,9 @@
 										Complete bridal hair styling with saree and dupatta draping to
 										perfectly complement the bridal makeup look.
 									</p>
+									<div class="mt-3">
+										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -529,7 +618,7 @@
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
 									<a href="services-details.html" class="icon-cell">
-										<i class="flaticon-makeup-1"></i>
+										<img src="images/our-services/s3.png" alt="Professional Bridal Makeup Course" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
@@ -540,6 +629,9 @@
 										Certified bridal makeup training with live demonstrations,
 										advanced techniques, and practical hands-on experience.
 									</p>
+									<div class="mt-3">
+										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -549,7 +641,7 @@
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
 									<a href="services-details.html" class="icon-cell">
-										<i class="flaticon-woman"></i>
+										<img src="images/our-services/s4.png" alt="Basic to Advanced Makeup Course" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
@@ -560,6 +652,9 @@
 										Step-by-step professional makeup training designed for beginners
 										and aspiring bridal makeup artists.
 									</p>
+									<div class="mt-3">
+										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -569,7 +664,7 @@
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
 									<a href="services-details.html" class="icon-cell">
-										<i class="flaticon-candle-1"></i>
+										<img src="images/our-services/s5.png" alt="Self Makeup Workshops" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
@@ -580,6 +675,9 @@
 										Personalized self-makeup workshops focused on daily grooming
 										and special occasion makeup techniques.
 									</p>
+									<div class="mt-3">
+										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -587,7 +685,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- Our Services END -->
 			<!-- Our Services -->
 
 			<!-- Video Portfolio Section -->
@@ -603,7 +700,7 @@
 
 					<div class="row g-4">
 						<!-- Video 1 -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-6">
+						<div class="col-lg-3 col-md-6 col-sm-6 col-6 my-3">
 							<div class="video-card">
 								<div class="video-thumbnail position-relative">
 									<video
@@ -624,7 +721,7 @@
 						</div>
 
 						<!-- Video 2 -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-6">
+						<div class="col-lg-3 col-md-6 col-sm-6 col-6 my-3">
 							<div class="video-card">
 								<div class="video-thumbnail position-relative">
 									<video
@@ -660,7 +757,7 @@
 								</div>
 								<div class="video-info p-3 bg-white rounded-bottom">
 									<h5 class="mb-2">Airbrush Makeup Demo</h5>
-									<p class="text-muted mb-0"><small>Tilak Nagar Branch</small></p>
+									<p class="text-muted mb-0"><small>Tilak Nagar Client</small></p>
 								</div>
 							</div>
 						</div>
@@ -690,7 +787,7 @@
 					<!-- View More Button -->
 					<div class="text-center mt-5">
 						<a href="https://www.youtube.com/channel/YOUR_CHANNEL" target="_blank" class="btn btn-outline-primary radius-xl">
-							<i class="fab fa-youtube me-2 text-danger"></i> View More Videos on YouTube
+							<i class="fa fa-youtube-play text-danger fw-2 mx-3"></i> View More Videos on YouTube
 						</a>
 					</div>
 				</div>
@@ -801,82 +898,7 @@
 				</div>
 			</div>
 
-			<style>
-				.video-card {
-					border-radius: 10px;
-					overflow: hidden;
-					box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-					transition: transform 0.3s ease;
-					height: 100%;
-				}
-
-				.video-card:hover {
-					transform: translateY(-10px);
-				}
-
-				.video-thumbnail {
-					height: 450px;
-					overflow: hidden;
-				}
-
-				.video-thumbnail img {
-					height: 100%;
-					object-fit: cover;
-					transition: transform 0.5s ease;
-				}
-
-				.video-card:hover .video-thumbnail img {
-					transform: scale(1.05);
-				}
-
-				.video-play-btn {
-					position: absolute;
-					top: 50%;
-					left: 50%;
-					transform: translate(-50%, -50%);
-					width: 60px;
-					height: 60px;
-					background: rgba(255, 107, 107, 0.9);
-					border-radius: 50%;
-					display: flex;
-					align-items: center;
-					justify-content: center;
-					color: white;
-					font-size: 24px;
-					cursor: pointer;
-					transition: all 0.3s ease;
-				}
-
-				.video-play-btn:hover {
-					background: rgba(255, 107, 107, 1);
-					transform: translate(-50%, -50%) scale(1.1);
-				}
-
-				.video-info {
-					border-top: 3px solid #ff6b6b;
-				}
-
-				.video-info h5 {
-					font-size: 16px;
-					line-height: 1.4;
-				}
-
-				.modal-content {
-					border-radius: 15px;
-					overflow: hidden;
-				}
-
-				.modal-header {
-					background: #ff6b6b;
-					color: white;
-					border-bottom: none;
-				}
-
-				.modal-header .btn-close {
-					filter: invert(1);
-				}
-			</style>
-
+			
 			<!-- Hair Services Section -->
 			<div class="section-full bg-white content-inner-2 bridal-about" style="background-image:url(images/background/bg10.jpg);">
 				<div class="container">
@@ -936,7 +958,7 @@
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Hair Dressing</a></h6>
 										<p>Complete hair dressing services including styling, setting, and finishing for any occasion.</p>
-										<div class="service-price-tag">₹100 - ₹1,000</div>
+										<div class="service-price-tag">₹500 - ₹2,000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
@@ -962,7 +984,7 @@
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Hair Curling</a></h6>
 										<p>Professional curling services using various techniques to create beautiful, lasting curls.</p>
-										<div class="service-price-tag">₹200 - ₹800</div>
+										<div class="service-price-tag">₹200 - ₹1,000</div>
 									</div>
 								</div>
 							</div>
@@ -978,7 +1000,7 @@
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Dandruff Treatment</a></h6>
 										<p>Specialized treatments for dandruff control and hair fall reduction using medicated products.</p>
-										<div class="service-price-tag">₹500 - ₹1,500</div>
+										<div class="service-price-tag">₹500 - ₹2,000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
@@ -1002,7 +1024,7 @@
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Roller Setting</a></h6>
 										<p>Classic roller setting for volume and waves. Perfect for traditional looks and special occasions.</p>
-										<div class="service-price-tag">₹150 - ₹500</div>
+										<div class="service-price-tag">₹500 - ₹1000</div>
 									</div>
 								</div>
 							</div>
@@ -1018,7 +1040,7 @@
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Tong Setting</a></h6>
 										<p>Professional tong setting for perfect curls or waves. Quick and efficient styling solution.</p>
-										<div class="service-price-tag">₹200 - ₹750</div>
+										<div class="service-price-tag">₹200 - ₹1,000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
@@ -1058,7 +1080,7 @@
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Hair Massage with Pack</a></h6>
 										<p>Relaxing scalp massage with nourishing hair packs to promote hair growth and health.</p>
-										<div class="service-price-tag">₹300 - ₹800</div>
+										<div class="service-price-tag">₹350 - ₹1000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
@@ -1082,7 +1104,7 @@
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Pressing</a></h6>
 										<p>Traditional hair pressing for straight, smooth hair without chemicals. Temporary straightening method.</p>
-										<div class="service-price-tag">₹250 - ₹700</div>
+										<div class="service-price-tag">₹250 - ₹1,000</div>
 									</div>
 								</div>
 							</div>
@@ -1093,12 +1115,12 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/83.jpg" alt="Creaming Service">
+										<img src="images/hairs/creaming.png" alt="Creaming Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Creaming</a></h6>
 										<p>Hair creaming treatment for softness, shine, and manageability using premium creams.</p>
-										<div class="service-price-tag">₹200 - ₹600</div>
+										<div class="service-price-tag">₹500 - ₹2,000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
@@ -1117,12 +1139,12 @@
 								</div>
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/84.jpg" alt="Hair Spa Service">
+										<img src="images/hairs/hair-spa.png" alt="Hair Spa Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Hair Spa</a></h6>
 										<p>Complete hair spa treatment for deep relaxation, nourishment, and hair rejuvenation.</p>
-										<div class="service-price-tag">₹400 - ₹1,200</div>
+										<div class="service-price-tag">₹500 - ₹2,000</div>
 									</div>
 								</div>
 							</div>
@@ -1133,7 +1155,7 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/85.jpg" alt="Perming Service">
+										<img src="images/hairs/perming.png" alt="Perming Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Perming</a></h6>
@@ -1157,12 +1179,12 @@
 								</div>
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/86.jpg" alt="Rebonding Service">
+										<img src="images/hairs/rebonding.png" alt="Rebonding Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Rebonding</a></h6>
 										<p>Permanent hair straightening treatment for ultra-smooth, straight, and manageable hair.</p>
-										<div class="service-price-tag">₹3,500 - ₹12,000</div>
+										<div class="service-price-tag">₹2,500 - ₹6,000</div>
 									</div>
 								</div>
 							</div>
@@ -1173,12 +1195,12 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/87.jpg" alt="Smoothing Service">
+										<img src="images/hairs/smoothing.png" alt="Smoothing Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Smoothing</a></h6>
 										<p>Hair smoothing treatment for frizz control, shine, and manageable hair without permanent straightening.</p>
-										<div class="service-price-tag">₹1,500 - ₹6,000</div>
+										<div class="service-price-tag">₹1,500 - ₹5,500</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
@@ -1197,12 +1219,12 @@
 								</div>
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/88.jpg" alt="Keratin Treatment">
+										<img src="images/hairs/keratin.png" alt="Keratin Treatment">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Keratin</a></h6>
 										<p>Keratin treatment for smooth, shiny, frizz-free hair that lasts for months with proper care.</p>
-										<div class="service-price-tag">₹2,500 - ₹9,000</div>
+										<div class="service-price-tag">₹1,500 - ₹5,500</div>
 									</div>
 								</div>
 							</div>
@@ -1213,7 +1235,7 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/89.jpg" alt="Shine Bond Service">
+										<img src="images/hairs/shine-bond.png" alt="Shine Bond Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Shine Bond</a></h6>
@@ -1237,12 +1259,12 @@
 								</div>
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/90.jpg" alt="Global Hair Color">
+										<img src="images/hairs/Global Hair Color.png" alt="Global Hair Color">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Global Hair Color</a></h6>
 										<p>Complete hair coloring from roots to ends using premium, ammonia-free color products.</p>
-										<div class="service-price-tag">₹800 - ₹3,000</div>
+										<div class="service-price-tag">₹1,500 - ₹5,500</div>
 									</div>
 								</div>
 							</div>
@@ -1253,7 +1275,7 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/91.jpg" alt="Highlights Service">
+										<img src="images/hairs/Highlights.png" alt="Highlights Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Highlights</a></h6>
@@ -1277,7 +1299,7 @@
 								</div>
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/92.jpg" alt="Streaking Service">
+										<img src="images/hairs/Streaking.png" alt="Streaking Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Streaking</a></h6>
@@ -1293,7 +1315,7 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/93.jpg" alt="Ombre Service">
+										<img src="images/hairs/Ombre.png" alt="Ombre Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Ombre</a></h6>
@@ -1317,7 +1339,7 @@
 								</div>
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/94.jpg" alt="Chunks Service">
+										<img src="images/hairs/Chunks.png" alt="Chunks Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Chunks</a></h6>
@@ -1333,7 +1355,7 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/95.jpg" alt="Balayage Service">
+										<img src="images/hairs/Balayage.png" alt="Balayage Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Balayage</a></h6>
@@ -1357,12 +1379,12 @@
 								</div>
 								<div class="dlab-media">
 									<a href="hair-services.php">
-										<img src="images/portfolio/96.jpg" alt="Hair Cuts Service">
+										<img src="images/portfolio/73.jpg" alt="Hair Cuts Service">
 									</a>
 									<div class="dlab-media-info">
 										<h6 class="dlab-title"><a href="hair-services.php">Hair Cuts</a></h6>
 										<p>Professional haircuts for all hair types and styles. Consultation included for perfect results.</p>
-										<div class="service-price-tag">₹75 - ₹550</div>
+										<div class="service-price-tag">₹200 - ₹1,000</div>
 									</div>
 								</div>
 							</div>

@@ -4084,6 +4084,7 @@ ol.comment-list li.comment {
 .owl-btn-top-lr .owl-nav .owl-next {
   margin-right: 0;
   float: right;
+  
 }
 .owl-btn-full .owl-next,
 .owl-btn-full .owl-prev {
@@ -4099,10 +4100,22 @@ ol.comment-list li.comment {
   -o-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
+      color: #000000;
+    background-color: #fdb07b;
+    border-radius: 50%;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
 }
 .owl-btn-center-lr .owl-nav .owl-next {
   left: auto !important;
   right: 0;
+     color: #000000;
+    background-color: #fdb07b;
+    border-radius: 50%;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
 }
 .owl-carousel .owl-item img {
   transform-style: inherit;
