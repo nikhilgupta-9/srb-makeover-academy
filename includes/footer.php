@@ -39,7 +39,7 @@ $gallery = get_gallery();
 							<li><a href="<?= $site ?>about-us/">About Us </a></li>
 							<li><a href="portfolio.php">Our Portfolio</a></li>
 							<li><a href="price.php">Our Pricing</a></li>
-							<li><a href="https://wa.me/919711228980?text=Hello%20I%20am%20interested%20in%20your%20makeup%20services.%20Please%20share%20details.">Booking Now</a></li>
+							<li><a href="https://wa.me/91<?= $contact['phone']?>text=Hello%20I%20am%20interested%20in%20your%20makeup%20services.%20Please%20share%20details.">Booking Now</a></li>
 							<li><a href="contact.php">Contact Us</a></li>
 						</ul>
 					</div>
@@ -48,11 +48,13 @@ $gallery = get_gallery();
 					<div class="widget widget_services border-0">
 						<h6 class="m-b20">Makeup Services</h6>
 						<ul>
-							<li><a href="shop-columns-sidebar.html">Shop </a></li>
-							<li><a href="shop-checkout.html">Checkout</a></li>
-							<li><a href="shop-cart.html">Cart</a></li>
-							<li><a href="shop-login.html">Login</a></li>
-							<li><a href="shop-register.html">Register</a></li>
+							<?php
+								$get_sub_cat = get_sub_category();
+								foreach($get_sub_cat as $get_sc){
+								?>
+							<li><a href="<?= $site ?>services/<?= $get_sc['slug_url'] ?>"><?= $get_sc['categories'] ?> </a></li>
+							<?php } ?>
+							
 						</ul>
 					</div>
 				</div>

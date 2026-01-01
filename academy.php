@@ -214,17 +214,7 @@ $contact = contact_us();
                             SRB Makeover & Academy - Your Gateway to Becoming a <span class="keyword-highlight">Professional Makeup Artist</span> in Delhi NCR
                         </p>
 
-                        <!-- Service Areas -->
-                        <div class="mt-4">
-                            <span class="location-badge">Hari Nagar</span>
-                            <span class="location-badge">Tilak Nagar</span>
-                            <span class="location-badge">Janakpuri</span>
-                            <span class="location-badge">Rajouri Garden</span>
-                            <span class="location-badge">Kirti Nagar</span>
-                            <span class="location-badge">Moti Nagar</span>
-                            <span class="location-badge">West Delhi</span>
-                            <span class="location-badge">Delhi NCR</span>
-                        </div>
+                        
 
                         <!-- Breadcrumb -->
                         <div class="breadcrumb-row mt-4">

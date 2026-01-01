@@ -59,9 +59,14 @@ $logo = get_logo();
 
 						<li><a href="javascript:void(0);">Our Service <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
-								<li><a href="makeup-services.php" class="dez-page">Makeup Services</a></li>
-								<li><a href="service.php" class="dez-page">Hair Services</a></li>
-								<li><a href="service.php" class="dez-page">Advance Services</a></li>
+								<?php
+								$get_sub_cat = get_sub_category();
+								foreach($get_sub_cat as $get_sc){
+								?>
+								<li><a href="<?= $site ?>services/<?= $get_sc['slug_url'] ?>" class="dez-page"><?= $get_sc['categories'] ?></a></li>
+								<?php } ?>
+								<!-- <li><a href="service.php" class="dez-page">Hair Services</a></li>
+								<li><a href="service.php" class="dez-page">Advance Services</a></li> -->
 								<li><a href="service.php" class="dez-page">Services</a></li>
 								<li><a href="services-details.php" class="dez-page">Services Details</a></li>
 							</ul>
@@ -83,7 +88,7 @@ $logo = get_logo();
 						</li>
 
 						<li>
-							<a href="booking.html" class="site-button">Book Now</a>
+							<a href="booking.html" class="site-button ">Book Now</a>
 						</li>
 					</ul>
 				</div>

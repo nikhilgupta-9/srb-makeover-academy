@@ -47,86 +47,86 @@
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 </head>
 <style>
-				.video-card {
-					border-radius: 10px;
-					overflow: hidden;
-					box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-					transition: transform 0.3s ease;
-					height: 100%;
-				}
+	.video-card {
+		border-radius: 10px;
+		overflow: hidden;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease;
+		height: 100%;
+	}
 
-				.video-card:hover {
-					transform: translateY(-10px);
-				}
+	.video-card:hover {
+		transform: translateY(-10px);
+	}
 
-				.video-thumbnail {
-					height: 450px;
-					overflow: hidden;
-				}
+	.video-thumbnail {
+		height: 450px;
+		overflow: hidden;
+	}
 
-				.video-thumbnail img {
-					height: 100%;
-					object-fit: cover;
-					transition: transform 0.5s ease;
-				}
+	.video-thumbnail img {
+		height: 100%;
+		object-fit: cover;
+		transition: transform 0.5s ease;
+	}
 
-				.video-card:hover .video-thumbnail img {
-					transform: scale(1.05);
-				}
+	.video-card:hover .video-thumbnail img {
+		transform: scale(1.05);
+	}
 
-				.video-play-btn {
-					position: absolute;
-					top: 50%;
-					left: 50%;
-					transform: translate(-50%, -50%);
-					width: 60px;
-					height: 60px;
-					background: rgba(255, 107, 107, 0.9);
-					border-radius: 50%;
-					display: flex;
-					align-items: center;
-					justify-content: center;
-					color: white;
-					font-size: 24px;
-					cursor: pointer;
-					transition: all 0.3s ease;
-				}
+	.video-play-btn {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 60px;
+		height: 60px;
+		background: rgba(255, 107, 107, 0.9);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		font-size: 24px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	}
 
-				.video-play-btn:hover {
-					background: rgba(255, 107, 107, 1);
-					transform: translate(-50%, -50%) scale(1.1);
-				}
+	.video-play-btn:hover {
+		background: rgba(255, 107, 107, 1);
+		transform: translate(-50%, -50%) scale(1.1);
+	}
 
-				.video-info {
-					border-top: 3px solid #ff6b6b;
-				}
+	.video-info {
+		border-top: 3px solid #ff6b6b;
+	}
 
-				.video-info h5 {
-					font-size: 16px;
-					line-height: 1.4;
-				}
+	.video-info h5 {
+		font-size: 16px;
+		line-height: 1.4;
+	}
 
-				.modal-content {
-					border-radius: 15px;
-					overflow: hidden;
-				}
+	.modal-content {
+		border-radius: 15px;
+		overflow: hidden;
+	}
 
-				.modal-header {
-					background: #ff6b6b;
-					color: white;
-					border-bottom: none;
-				}
+	.modal-header {
+		background: #ff6b6b;
+		color: white;
+		border-bottom: none;
+	}
 
-				.modal-header .btn-close {
-					filter: invert(1);
-				}
+	.modal-header .btn-close {
+		filter: invert(1);
+	}
 
-				@media (max-width: 754px) {
-					.video-thumbnail {
-						height: 280px;
-					}
-				}
-			</style>
+	@media (max-width: 754px) {
+		.video-thumbnail {
+			height: 280px;
+		}
+	}
+</style>
 
 <body id="bg">
 	<div class="page-wraper">
@@ -366,18 +366,18 @@
 						<div class="item">
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
-									<a href="services-details.html">
+									<a href="service.php">
 										<img src="images/portfolio/57.jpg.jpeg" alt="Bridal Makeup Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="services-details.html">Bridal Makeup</a></h6>
+										<h6 class="dlab-title"><a href="service.php">Bridal Makeup</a></h6>
 										<p>Complete bridal transformation for weddings, engagements & receptions with flawless, long-lasting makeup.</p>
 										<div class="service-price-tag">₹7,000 - ₹25,000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
 									<h2>01</h2>
-									<h6 class="dlab-title"><a href="services-details.html">Bridal Makeup</a></h6>
+									<h6 class="dlab-title"><a href="service.php">Bridal Makeup</a></h6>
 								</div>
 							</div>
 						</div>
@@ -387,14 +387,14 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-info text-center">
 									<h2>02</h2>
-									<h6 class="dlab-title"><a href="services-details.html">Makeup & Styling</a></h6>
+									<h6 class="dlab-title"><a href="service.php">Makeup & Styling</a></h6>
 								</div>
 								<div class="dlab-media">
-									<a href="services-details.html">
+									<a href="service.php">
 										<img src="images/portfolio/m1.png" alt="Makeup and Styling Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="services-details.html">Makeup & Styling</a></h6>
+										<h6 class="dlab-title"><a href="service.php">Makeup & Styling</a></h6>
 										<p>Professional makeup for events, fashion shows, video shoots, commercials, workshops & advertising campaigns.</p>
 										<div class="service-price-tag">₹2000 - ₹7,500</div>
 									</div>
@@ -406,18 +406,18 @@
 						<div class="item">
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
-									<a href="services-details.html">
+									<a href="service.php">
 										<img src="images/portfolio/m2.png" alt="Facial Treatment Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="services-details.html">Facial Treatments</a></h6>
+										<h6 class="dlab-title"><a href="service.php">Facial Treatments</a></h6>
 										<p>Revitalizing facials customized for different skin types, leaving your skin glowing and rejuvenated.</p>
 										<div class="service-price-tag">₹550 - ₹3,500</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
 									<h2>03</h2>
-									<h6 class="dlab-title"><a href="services-details.html">Facial</a></h6>
+									<h6 class="dlab-title"><a href="service.php">Facial</a></h6>
 								</div>
 							</div>
 						</div>
@@ -427,14 +427,14 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-info text-center">
 									<h2>04</h2>
-									<h6 class="dlab-title"><a href="services-details.html">Hair Styling</a></h6>
+									<h6 class="dlab-title"><a href="service.php">Hair Styling</a></h6>
 								</div>
 								<div class="dlab-media">
-									<a href="services-details.html">
+									<a href="service.php">
 										<img src="images/portfolio/35.jpg.jpeg" alt="Hair Styling Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="services-details.html">Hair Styling</a></h6>
+										<h6 class="dlab-title"><a href="service.php">Hair Styling</a></h6>
 										<p>Professional hair styling for all occasions. From simple looks to elaborate bridal hairstyles.</p>
 										<div class="service-price-tag">₹500 - ₹2,000</div>
 									</div>
@@ -446,18 +446,18 @@
 						<div class="item">
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
-									<a href="services-details.html">
+									<a href="service.php">
 										<img src="images/portfolio/67.jpg" alt="Hair Coloring Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="services-details.html">Hair Coloring</a></h6>
+										<h6 class="dlab-title"><a href="service.php">Hair Coloring</a></h6>
 										<p>Professional hair coloring services with premium products. Fashion streaks & root touch-up available.</p>
 										<div class="service-price-tag">₹550 - ₹2,500</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
 									<h2>05</h2>
-									<h6 class="dlab-title"><a href="services-details.html">Hair Color</a></h6>
+									<h6 class="dlab-title"><a href="service.php">Hair Color</a></h6>
 								</div>
 							</div>
 						</div>
@@ -467,14 +467,14 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-info text-center">
 									<h2>06</h2>
-									<h6 class="dlab-title"><a href="services-details.html">Waxing Services</a></h6>
+									<h6 class="dlab-title"><a href="service.php">Waxing Services</a></h6>
 								</div>
 								<div class="dlab-media">
-									<a href="services-details.html">
+									<a href="service.php">
 										<img src="images/portfolio/68.jpg" alt="Waxing Services">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="services-details.html">Waxing Services</a></h6>
+										<h6 class="dlab-title"><a href="service.php">Waxing Services</a></h6>
 										<p>Professional waxing for face and body with minimal discomfort. From eyebrows to full body waxing.</p>
 										<div class="service-price-tag">₹130 - ₹3,000</div>
 									</div>
@@ -486,18 +486,18 @@
 						<div class="item">
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
-									<a href="services-details.html">
+									<a href="service.php">
 										<img src="images/portfolio/69.jpg" alt="Hair Spa Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="services-details.html">Hair Spa</a></h6>
+										<h6 class="dlab-title"><a href="service.php">Hair Spa</a></h6>
 										<p>Deep conditioning treatment for damaged hair. Restores shine, strength and vitality to your hair.</p>
 										<div class="service-price-tag">₹500 - ₹2,000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
 									<h2>07</h2>
-									<h6 class="dlab-title"><a href="services-details.html">Hair Spa</a></h6>
+									<h6 class="dlab-title"><a href="service.php">Hair Spa</a></h6>
 								</div>
 							</div>
 						</div>
@@ -507,14 +507,14 @@
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-info text-center">
 									<h2>08</h2>
-									<h6 class="dlab-title"><a href="services-details.html">Pre-Bridal Package</a></h6>
+									<h6 class="dlab-title"><a href="service.php">Pre-Bridal Package</a></h6>
 								</div>
 								<div class="dlab-media">
-									<a href="services-details.html">
+									<a href="service.php">
 										<img src="images/gallery/b14.jpeg" alt="Pre-Bridal Package Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="services-details.html">Pre-Bridal Package</a></h6>
+										<h6 class="dlab-title"><a href="service.php">Pre-Bridal Package</a></h6>
 										<p>Complete pre-wedding beauty regimen including facials, waxing, hair treatments and skin preparation.</p>
 										<div class="service-price-tag">₹7,000 - ₹20,000</div>
 									</div>
@@ -548,20 +548,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="services-details.html" class="icon-cell">
+									<a href="service.php" class="icon-cell">
 										<img src="images/collage/pic1.jpg" alt="Bridal Makeup Service" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="services-details.html">Bridal <br> Makeup</a>
+										<a href="service.php">Bridal <br> Makeup</a>
 									</h5>
 									<p>
 										Signature HD and Airbrush bridal makeup crafted to enhance natural
 										beauty and create a flawless, long-lasting bridal look.
 									</p>
 									<div class="mt-3">
-										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
@@ -571,20 +571,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="services-details.html" class="icon-cell">
+									<a href="service.php" class="icon-cell">
 										<img src="images/our-services/s1.png" alt="Engagement & Reception Makeup Service" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="services-details.html">Engagement & Reception Makeup</a>
+										<a href="service.php">Engagement & Reception Makeup</a>
 									</h5>
 									<p>
 										Elegant and glamorous makeup looks designed for engagements,
 										receptions, and pre-wedding celebrations.
 									</p>
 									<div class="mt-3">
-										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
@@ -594,20 +594,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="services-details.html" class="icon-cell">
+									<a href="service.php" class="icon-cell">
 										<img src="images/our-services/s2.png" alt="Bridal Hair Styling & Draping Service" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="services-details.html">Bridal Hair Styling <br> & Draping</a>
+										<a href="service.php">Bridal Hair Styling <br> & Draping</a>
 									</h5>
 									<p>
 										Complete bridal hair styling with saree and dupatta draping to
 										perfectly complement the bridal makeup look.
 									</p>
 									<div class="mt-3">
-										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
@@ -617,20 +617,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="services-details.html" class="icon-cell">
+									<a href="service.php" class="icon-cell">
 										<img src="images/our-services/s3.png" alt="Professional Bridal Makeup Course" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="services-details.html">Professional Bridal Makeup Course</a>
+										<a href="service.php">Professional Bridal Makeup Course</a>
 									</h5>
 									<p>
 										Certified bridal makeup training with live demonstrations,
 										advanced techniques, and practical hands-on experience.
 									</p>
 									<div class="mt-3">
-										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
@@ -640,20 +640,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="services-details.html" class="icon-cell">
+									<a href="service.php" class="icon-cell">
 										<img src="images/our-services/s4.png" alt="Basic to Advanced Makeup Course" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="services-details.html">Basic to Advanced Makeup Course</a>
+										<a href="service.php">Basic to Advanced Makeup Course</a>
 									</h5>
 									<p>
 										Step-by-step professional makeup training designed for beginners
 										and aspiring bridal makeup artists.
 									</p>
 									<div class="mt-3">
-										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
@@ -663,20 +663,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="services-details.html" class="icon-cell">
+									<a href="service.php" class="icon-cell">
 										<img src="images/our-services/s5.png" alt="Self Makeup Workshops" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="services-details.html">Self Makeup Workshops</a>
+										<a href="service.php">Self Makeup Workshops</a>
 									</h5>
 									<p>
 										Personalized self-makeup workshops focused on daily grooming
 										and special occasion makeup techniques.
 									</p>
 									<div class="mt-3">
-										<a href="services-details.html" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
@@ -898,7 +898,7 @@
 				</div>
 			</div>
 
-			
+
 			<!-- Hair Services Section -->
 			<div class="section-full bg-white content-inner-2 bridal-about" style="background-image:url(images/background/bg10.jpg);">
 				<div class="container">
@@ -1403,65 +1403,53 @@
 						<h2 class="m-b10">Our Portfolio</h2>
 						<p class="m-b0">Explore our stunning bridal makeup transformations. We specialize in creating timeless beauty for your special day.</p>
 					</div>
+					<?php
+					// Fetch all active categories
+					$categories = mysqli_query($conn, "
+						SELECT pc.*, COUNT(pi.id) as item_count 
+						FROM portfolio_categories pc 
+						LEFT JOIN portfolio_items pi ON pc.id = pi.category_id AND pi.status = 'active'
+						WHERE pc.status = 'active'
+						GROUP BY pc.id
+						ORDER BY pc.name
+					");
 
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<div class="site-filters style1 clearfix center">
-								<ul class="filters" data-toggle="buttons">
-									<li data-filter="" class="btn active">
-										<input type="radio">
-										<a href="#"><span>All</span></a>
-									</li>
-									<li data-filter="bridal" class="btn">
-										<input type="radio">
-										<a href="#"><span>Bridal Makeup</span></a>
-									</li>
-									<li data-filter="birthday" class="btn">
-										<input type="radio">
-										<a href="#"><span>Coloring</span></a>
-									</li>
-									<li data-filter="party" class="btn">
-										<input type="radio">
-										<a href="#"><span>Heighlights</span></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
+					// Fetch all active portfolio items
+					$portfolio_query = "
+					SELECT p.*, c.name as category_name, c.slug as category_slug 
+					FROM portfolio_items p 
+					LEFT JOIN portfolio_categories c ON p.category_id = c.id 
+					WHERE p.status = 'active' 
+					ORDER BY rand()
+				";
+					$portfolio_result = mysqli_query($conn, $portfolio_query);
+					$portfolio_items = mysqli_fetch_all($portfolio_result, MYSQLI_ASSOC);
+					?>
+
+					<div class="site-filters style1 clearfix center">
+                            <ul class="filters" data-toggle="buttons">
+                                <li data-filter="" class="btn active">
+                                    <input type="radio">
+                                    <a href="#"><span>All</span></a>
+                                </li>
+                                <?php while ($category = mysqli_fetch_assoc($categories)): ?>
+                                    <li data-filter="<?= $category['slug'] ?>" class="btn">
+                                        <input type="radio">
+                                        <a href="#"><span><?= $category['name'] ?></span></a>
+                                    </li>
+                                <?php endwhile; ?>
+                            </ul>
+                        </div>
 
 					<div class="clearfix">
-						<?php
-						// Fetch portfolio items for homepage (limit 20, random order)
-						$home_portfolio_query = "
-                SELECT p.*, c.name as category_name, c.slug as category_slug 
-                FROM portfolio_items p 
-                LEFT JOIN portfolio_categories c ON p.category_id = c.id 
-                WHERE p.status = 'active' 
-                AND p.show_home = TRUE
-                ORDER BY RAND()
-                LIMIT 20
-            ";
-
-						$home_portfolio_result = mysqli_query($conn, $home_portfolio_query);
-
-						if (mysqli_num_rows($home_portfolio_result) > 0):
-						?>
+						
 							<ul id="masonry" class="row sp15 portfolio-box dlab-gallery-listing gallery-grid-4 gallery lightgallery">
-								<?php
-								$category_mapping = [
-									'bridal-makeup' => 'bridal',
-									'makeup' => 'bridal',
-									'haircuts' => 'party',
-									'coloring' => 'party',
-									'highlights' => 'party'
-								];
-
-								while ($item = mysqli_fetch_assoc($home_portfolio_result)):
-									$image_path = $site . "admin/uploads/portfolio/" . $item['image_path'];
-									$category_slug = isset($item['category_slug']) ? $item['category_slug'] : '';
-									$portfolio_class = isset($category_mapping[$category_slug]) ? $category_mapping[$category_slug] : 'bridal';
-								?>
-									<li class="<?= $portfolio_class ?> card-container col-lg-3 col-md-6 col-sm-6 m-b15">
+								<?php foreach ($portfolio_items as $item): ?>
+                                    <?php
+                                    $category_slug = isset($item['category_slug']) ? $item['category_slug'] : '';
+                                    $image_path = $site . "admin/uploads/portfolio/" . $item['image_path'];
+                                    ?>
+									<li class="<?= $category_slug ?> card-container col-lg-3 col-md-6 col-sm-6 m-b15">
 										<div class="dlab-box">
 											<div class="dlab-media">
 												<img src="<?= $image_path ?>" alt="<?= htmlspecialchars($item['title']) ?>">
@@ -1484,56 +1472,16 @@
 											</div>
 										</div>
 									</li>
-								<?php endwhile; ?>
+								 <?php endforeach; ?>
 							</ul>
 
 							<!-- View All Button -->
 							<div class="text-center mt-4">
-								<a href="portfolio.php" class="btn btn-primary radius-xl">
+								<a href="<?= $site ?>portfolio.php" class="btn btn-primary radius-xl">
 									<i class="fas fa-images me-2"></i> View Complete Portfolio
 								</a>
 							</div>
-						<?php else: ?>
-							<!-- Fallback to static images if no database items -->
-							<ul id="masonry" class="row sp15 portfolio-box dlab-gallery-listing gallery-grid-4 gallery lightgallery">
-								<?php
-								$static_images = [
-									['src' => 'images/portfolio/61.jpg.jpeg', 'class' => 'bridal', 'title' => 'Traditional Bridal Makeup'],
-									['src' => 'images/portfolio/70.jpg', 'class' => 'bridal', 'title' => 'Contemporary Bridal Look'],
-									['src' => 'images/portfolio/52.jpg.jpeg', 'class' => 'bridal', 'title' => 'Royal Wedding Makeup'],
-									['src' => 'images/portfolio/36.jpg.jpeg', 'class' => 'birthday', 'title' => 'Birthday Party Makeup'],
-									['src' => 'images/portfolio/29.jpg.jpeg', 'class' => 'bridal', 'title' => 'Mehndi Function Makeup'],
-									['src' => 'images/portfolio/43.jpg.jpeg', 'class' => 'party', 'title' => 'Cocktail Party Makeup'],
-									['src' => 'images/portfolio/34.jpg.jpeg', 'class' => 'party', 'title' => 'Evening Party Makeup'],
-									['src' => 'images/portfolio/20.jpg.jpeg', 'class' => 'bridal', 'title' => 'Sangeet Night Makeup'],
-								];
-
-								foreach ($static_images as $img):
-								?>
-									<li class="<?= $img['class'] ?> card-container col-lg-3 col-md-6 col-sm-6 m-b15">
-										<div class="dlab-box">
-											<div class="dlab-media">
-												<img src="<?= $img['src'] ?>" alt="<?= $img['title'] ?>">
-												<div class="overlay-bx">
-													<div class="spa-port-bx">
-														<div>
-															<h4><a href="portfolio.php"><?= $img['title'] ?></a></h4>
-															<p>Professional makeup by SRB Makeover & Academy</p>
-															<span data-exthumbimage="<?= $img['src'] ?>"
-																data-src="<?= $img['src'] ?>"
-																class="check-km"
-																title="<?= $img['title'] ?>">
-																<i class="ti-fullscreen"></i>
-															</span>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</li>
-								<?php endforeach; ?>
-							</ul>
-						<?php endif; ?>
+						
 					</div>
 				</div>
 			</div>

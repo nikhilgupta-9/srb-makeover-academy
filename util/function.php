@@ -154,13 +154,13 @@ function get_services(): array
     return $products; // returns an array of 6 latest active products
 }
 
-function get_sub_category($limit)
+function get_sub_category()
 {
     global $conn;
     $sub_category = [];
 
     // Use prepared statement to prevent SQL injection
-    $sql = "SELECT * FROM `sub_categories` WHERE `parent_id` = 56019 limit $limit"; // Assuming it's a boolean/bit field
+    $sql = "SELECT * FROM `sub_categories`"; // Assuming it's a boolean/bit field
 
     $result = mysqli_query($conn, $sql);
 
