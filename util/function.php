@@ -407,4 +407,57 @@ function testimonial(){
     }
     return $test;
 }
+
+function get_product_sub_cat() {
+    global $conn;
+
+    if (empty($_GET['alias'])) {
+        die("Invalid product URL.");
+    }
+
+    $alias = $_GET['alias'];
+
+    $stmt = $conn->prepare("
+        SELECT p.*, sc.categories, sc.cate_id, sc.slug_url AS cat_slug
+        FROM products p
+        LEFT JOIN sub_categories sc
+            ON sc.cate_id = p.pro_sub_cate
+            AND sc.slug_url = ?
+    ");
+
+    $stmt->bind_param("s", $alias);
+    $stmt->execute();
+    $res = $stmt->get_result();
+
+    $products = [];
+    while ($row = $res->fetch_assoc()) {
+        $products[] = $row;
+    }
+
+    return $products;
+}
+
+function get_service_icon($category) {
+    $icons = [
+        'hair' => 'flaticon-barbershop',
+        'makeup' => 'flaticon-makeup',
+        'nails' => 'flaticon-makeup-1',
+        'skincare' => 'flaticon-woman-1',
+        'body-treatment' => 'flaticon-woman',
+        'massage' => 'flaticon-candle-1',
+        'spa' => 'flaticon-spa',
+        'facial' => 'flaticon-makeup-2',
+        'waxing' => 'flaticon-razor',
+        'default' => 'flaticon-spa'
+    ];
+    
+    $category_slug = strtolower(str_replace(' ', '-', $category));
+    
+    return $icons[$category_slug] ?? $icons['default'];
+}
+
+// Function to sanitize output
+function safe_output($string) {
+    return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
+}
 ?>

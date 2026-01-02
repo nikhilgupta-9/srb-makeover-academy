@@ -786,7 +786,7 @@
 
 					<!-- View More Button -->
 					<div class="text-center mt-5">
-						<a href="https://www.youtube.com/channel/YOUR_CHANNEL" target="_blank" class="btn btn-outline-primary radius-xl">
+						<a href="https://www.youtube.com/@s.r.bmakeover/shorts" target="_blank" class="btn btn-outline-primary radius-xl">
 							<i class="fa fa-youtube-play text-danger fw-2 mx-3"></i> View More Videos on YouTube
 						</a>
 					</div>

@@ -6,11 +6,6 @@ RewriteEngine On
 # RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 # Rewrite Product Details URLs
-# Services pages
-RewriteRule ^services/([a-zA-Z0-9-]+)/?$ services.php?service=$1 [L,NC]
-
-# If you also want a plain /services/ URL
-RewriteRule ^services/?$ services.php [L,NC]
 
 RewriteRule ^academy/?$ academy.php [L,NC]
 RewriteRule ^pricing/?$ pricing.php [L,NC]
@@ -21,9 +16,9 @@ RewriteRule ^about-us/?$ about-us.php [L,NC]
 
 RewriteRule ^blogs/?$ blog.php [L,NC]
 
-RewriteRule ^product-details/([^/]+)/?$ construction-services.php?alias=$1 [L,QSA]
+RewriteRule ^service-details/([^/]+)/?$ services-details.php?alias=$1 [L,QSA]
 
-RewriteRule ^service/([^/]+)/?$ service.php?alias=$1 [L,QSA]
+RewriteRule ^services/([^/]+)/?$ service.php?alias=$1 [L,QSA]
 
 # RewriteRule ^blogs/([^/]+)/?$ blog.php?alias=$1 [L,QSA]
 
