@@ -17,7 +17,7 @@ $contact = contact_us();
     <meta name="description" content="BeautyZone : Beauty Spa Salon HTML Template">
     <meta property="og:title" content="BeautyZone : Beauty Spa Salon HTML Template">
     <meta property="og:description" content="BeautyZone : Beauty Spa Salon HTML Template">
-    <meta property="og:image" content="http://beautyzone.dexignzone.com/xhtml/error-404.html">
+    <meta property="og:image" content="">
     <meta name="format-detection" content="telephone=no">
 
     <!-- FAVICONS ICON -->
@@ -25,7 +25,7 @@ $contact = contact_us();
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
     <!-- PAGE TITLE HERE -->
-    <title>BeautyZone : Beauty Spa Salon HTML Template </title>
+    <title>Contact | SRB Makeover & Academy </title>
 
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,12 +36,12 @@ $contact = contact_us();
 	<![endif]-->
 
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" type="text/css" href="css/plugins.css">
-    <link rel="stylesheet" type="text/css" href="css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="css/templete.min.css">
-    <link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-1.css">
-    <link rel="stylesheet" type="text/css" href="css/styleSwitcher.css">
-    <link rel="stylesheet" type="text/css" href="plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="<?= $site ?>css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="<?= $site ?>css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= $site ?>css/templete.min.css">
+    <link class="skin" rel="stylesheet" type="text/css" href="<?= $site ?>css/skin/skin-1.css">
+    <link rel="stylesheet" type="text/css" href="<?= $site ?>css/styleSwitcher.css">
+    <link rel="stylesheet" type="text/css" href="<?= $site ?>plugins/perfect-scrollbar/css/perfect-scrollbar.css">
 
 </head>
 
@@ -55,7 +55,7 @@ $contact = contact_us();
         <!-- Content -->
         <div class="page-content bg-white">
             <!-- inner page banner -->
-            <div class="dlab-bnr-inr dlab-bnr-inr-md overlay-black-dark" style="background-image:url(images/banner/breadcrumb-bg3.png);">
+            <div class="dlab-bnr-inr dlab-bnr-inr-md overlay-black-dark" style="background-image:url(<?= $site ?>images/banner/breadcrumb-bg3.png);">
                 <div class="container">
                     <div class="dlab-bnr-inr-entry">
                         <h1 class="text-white">Contact Us</h1>

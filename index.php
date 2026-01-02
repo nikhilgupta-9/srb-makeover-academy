@@ -293,7 +293,7 @@
 								</div>
 								<!-- LAYER NR. 5 -->
 								<a class="tp-caption rev-btn tp-resizeme"
-									href="about-us.html" target="_blank"
+									href="<?= $site ?>about-us/" target="_blank"
 									id="slide-411-layer-13"
 									data-x="['center','center','center','center']"
 									data-hoffset="['-470','-410','-90','-90']"
@@ -320,7 +320,7 @@
 									style="z-index: 13; white-space: normal; font-size: 17px; line-height: 50px; font-weight: 600; color: rgba(255, 255, 255, 1.00); display: inline-block;font-family:Poppins;background-color:rgba(255, 255, 255, 0);border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:1px 1px 1px 1px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">Read More
 								</a>
 								<a class="tp-caption rev-btn tp-resizeme"
-									href="booking.html" target="_blank"
+									href="<?= $site ?>booking.php" target="_blank"
 									id="slide-411-layer-12"
 									data-x="['center','center','center','center']"
 									data-hoffset="['-290','-230','90','90']"
@@ -617,20 +617,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="service.php" class="icon-cell">
-										<img src="images/our-services/s3.png" alt="Professional Bridal Makeup Course" class="service-image radius-xl" height="100px" width="100px">
+									<a href="<?= $site ?>academy/" class="icon-cell">
+										<img src="<?= $site ?>images/our-services/s3.png" alt="Professional Bridal Makeup Course" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="service.php">Professional Bridal Makeup Course</a>
+										<a href="<?= $site ?>academy/">Professional Bridal Makeup Course</a>
 									</h5>
 									<p>
 										Certified bridal makeup training with live demonstrations,
 										advanced techniques, and practical hands-on experience.
 									</p>
 									<div class="mt-3">
-										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="<?= $site ?>academy/" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
@@ -640,20 +640,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="service.php" class="icon-cell">
-										<img src="images/our-services/s4.png" alt="Basic to Advanced Makeup Course" class="service-image radius-xl" height="100px" width="100px">
+									<a href="<?= $site ?>academy/" class="icon-cell">
+										<img src="<?= $site ?>images/our-services/s4.png" alt="Basic to Advanced Makeup Course" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="service.php">Basic to Advanced Makeup Course</a>
+										<a href="<?= $site ?>academy/">Basic to Advanced Makeup Course</a>
 									</h5>
 									<p>
 										Step-by-step professional makeup training designed for beginners
 										and aspiring bridal makeup artists.
 									</p>
 									<div class="mt-3">
-										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="<?= $site ?>academy/" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
@@ -663,20 +663,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="service.php" class="icon-cell">
-										<img src="images/our-services/s5.png" alt="Self Makeup Workshops" class="service-image radius-xl" height="100px" width="100px">
+									<a href="<?= $site ?>academy/" class="icon-cell">
+										<img src="<?= $site ?>images/our-services/s5.png" alt="Self Makeup Workshops" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="service.php">Self Makeup Workshops</a>
+										<a href="<?= $site ?>academy/">Self Makeup Workshops</a>
 									</h5>
 									<p>
 										Personalized self-makeup workshops focused on daily grooming
 										and special occasion makeup techniques.
 									</p>
 									<div class="mt-3">
-										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="<?= $site ?>academy/" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>

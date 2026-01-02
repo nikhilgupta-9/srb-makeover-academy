@@ -14,6 +14,7 @@ RewriteRule ^portfolio/?$ portfolio.php [L,NC]
 
 RewriteRule ^about-us/?$ about-us.php [L,NC]
 
+RewriteRule ^prices/?$ price.php [L,NC]
 RewriteRule ^blogs/?$ blog.php [L,NC]
 
 RewriteRule ^service-details/([^/]+)/?$ services-details.php?alias=$1 [L,QSA]

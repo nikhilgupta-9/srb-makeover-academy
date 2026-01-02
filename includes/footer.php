@@ -37,8 +37,8 @@ $gallery = get_gallery();
 						<ul>
 							<li><a href="<?= $site ?>">Home </a></li>
 							<li><a href="<?= $site ?>about-us/">About Us </a></li>
-							<li><a href="portfolio.php">Our Portfolio</a></li>
-							<li><a href="price.php">Our Pricing</a></li>
+							<li><a href="<?= $site ?>portfolio/">Our Portfolio</a></li>
+							<li><a href="<?= $site ?>prices/">Our Pricing</a></li>
 							<li><a href="https://wa.me/91<?= $contact['phone']?>text=Hello%20I%20am%20interested%20in%20your%20makeup%20services.%20Please%20share%20details.">Booking Now</a></li>
 							<li><a href="contact.php">Contact Us</a></li>
 						</ul>

@@ -122,7 +122,7 @@ $services = get_product_sub_cat();
 									<div class="col-lg-3 col-md-4 col-sm-6 col-6 p-lr0">
 										<div class="icon-bx-wraper center p-a15">
 											<div class="mb-3"> 
-												<a href="services-details.php?slug=<?= $service['slug_url'] ?>" class="icon-cell">
+												<a href="<?= $site ?>service-details/<?= $service['slug_url'] ?>" class="icon-cell">
 													<?php 
 													// You can set different icons based on category or use a default
 													// $icon_class = get_service_icon($service['pro_cate']);
@@ -132,7 +132,7 @@ $services = get_product_sub_cat();
 												</a> 
 											</div>
 											<div class="icon-content">
-												<h5 class="dez-tilte"><a href="services-details.php?slug=<?= $service['slug_url'] ?>"><?= htmlspecialchars($service['pro_name']) ?></a></h5>
+												<h5 class="dez-tilte"><a href="<?= $site ?>service-details/<?= $service['slug_url'] ?>"><?= htmlspecialchars($service['pro_name']) ?></a></h5>
 												<?= substr($service['short_desc'],0,20) ?> ...
 											</div>
 											<div class="icon-content">
@@ -160,7 +160,7 @@ $services = get_product_sub_cat();
 									<div class="icon-content">
 										<h6 class="dlab-tilte">We are Professional</h6>
 										<p>Our team consists of certified professionals with years of experience in beauty and wellness.</p>
-										<a href="about-us.php" class="site-button-secondry">Read More</a>
+										<a href="<?= $site ?>about-us/" class="site-button-secondry">Read More</a>
 									</div>
 								</div>
 							</div>
@@ -170,7 +170,7 @@ $services = get_product_sub_cat();
 									<div class="icon-content">
 										<h6 class="dlab-tilte">Premium Products</h6>
 										<p>We use only high-quality, professional-grade products for all our services.</p>
-										<a href="products.php" class="site-button-secondry">View Products</a>
+										<a href="<?= $site ?>" class="site-button-secondry">View Products</a>
 									</div>
 								</div>
 							</div>
@@ -180,7 +180,7 @@ $services = get_product_sub_cat();
 									<div class="icon-content">
 										<h6 class="dlab-tilte">Relaxing Environment</h6>
 										<p>Enjoy our serene and comfortable environment designed for ultimate relaxation.</p>
-										<a href="gallery.php" class="site-button-secondry">View Gallery</a>
+										<a href="<?= $site ?>portfolio/" class="site-button-secondry">View Gallery</a>
 									</div>
 								</div>
 							</div>
@@ -190,7 +190,7 @@ $services = get_product_sub_cat();
 									<div class="icon-content">
 										<h6 class="dlab-tilte">Modern Equipment</h6>
 										<p>We use the latest technology and equipment to ensure the best results.</p>
-										<a href="about-us.php" class="site-button-secondry">Learn More</a>
+										<a href="<?= $site ?>prices/" class="site-button-secondry">Learn More</a>
 									</div>
 								</div>
 							</div>

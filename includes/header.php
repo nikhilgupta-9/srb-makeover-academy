@@ -65,10 +65,7 @@ $logo = get_logo();
 								?>
 								<li><a href="<?= $site ?>services/<?= $get_sc['slug_url'] ?>" class="dez-page"><?= $get_sc['categories'] ?></a></li>
 								<?php } ?>
-								<!-- <li><a href="service.php" class="dez-page">Hair Services</a></li>
-								<li><a href="service.php" class="dez-page">Advance Services</a></li> -->
-								<li><a href="service.php" class="dez-page">Services</a></li>
-								<li><a href="services-details.php" class="dez-page">Services Details</a></li>
+								
 							</ul>
 						</li>
 						<li class="<?= ($currentPage == 'academy.php') ? 'active' : ''; ?>">
@@ -76,7 +73,7 @@ $logo = get_logo();
 						</li>
 
 						<li class="<?= ($currentPage == 'price.php') ? 'active' : ''; ?>">
-							<a href="<?= $site ?>price.php">Price</a>
+							<a href="<?= $site ?>prices/">Price</a>
 						</li>
 
 						<li class="<?= ($currentPage == 'portfolio.php') ? 'active' : ''; ?>">
@@ -88,7 +85,7 @@ $logo = get_logo();
 						</li>
 
 						<li>
-							<a href="booking.html" class="site-button ">Book Now</a>
+							<a href="<?= $site ?>booking.php" class="site-button ">Book Now</a>
 						</li>
 					</ul>
 				</div>

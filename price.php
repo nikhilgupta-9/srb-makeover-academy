@@ -10,16 +10,16 @@ $contact = contact_us();
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Complete Price List | BeautyZone</title>
+    <title>Price List | SRB Makeover & Academy</title>
     
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-    <link rel="stylesheet" type="text/css" href="css/plugins.css">
-    <link rel="stylesheet" type="text/css" href="css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="css/templete.min.css">
-    <link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-1.css">
-    <link rel="stylesheet" type="text/css" href="css/styleSwitcher.css">
+    <link rel="icon" href="<?= $site ?>images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= $site ?>images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="<?= $site ?>css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="<?= $site ?>css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= $site ?>css/templete.min.css">
+    <link class="skin" rel="stylesheet" type="text/css" href="<?= $site ?>css/skin/skin-1.css">
+    <link rel="stylesheet" type="text/css" href="<?= $site ?>css/styleSwitcher.css">
     
     <style>
         :root {
@@ -202,14 +202,14 @@ $contact = contact_us();
         <!-- Content -->
         <div class="page-content bg-white">
             
-            <div class="dlab-bnr-inr dlab-bnr-inr-md overlay-black-dark" style="background-image:url(images/banner/breadcrumb-bg.png);">
+            <div class="dlab-bnr-inr dlab-bnr-inr-md overlay-black-dark" style="background-image:url(<?= $site ?>images/banner/breadcrumb-bg.png);">
 				<div class="container">
 					<div class="dlab-bnr-inr-entry">
 						<h1 class="text-white">Complete Price List</h1>
 						<!-- Breadcrumb row -->
 						<div class="breadcrumb-row">
 							<ul class="list-inline">
-								<li><a href="index.php">Home</a></li>
+								<li><a href="<?= $site ?>">Home</a></li>
 								<li>Price List</li>
 							</ul>
                             <p class="m-t20">Transparent pricing for all our beauty and makeup services</p>
@@ -358,10 +358,10 @@ $contact = contact_us();
                     <div class="text-center m-t40">
                         <h3 class="m-b20">Ready to Book Your Appointment?</h3>
                         <p class="m-b30">Contact us for personalized consultation and special package deals</p>
-                        <a href="contact.php" class="btn btn-primary btn-lg m-r20" style="background: var(--primary-orange); border-color: var(--primary-orange);">
+                        <a href="<?= $site ?>contact/" class="btn btn-primary btn-lg m-r20" style="background: var(--primary-orange); border-color: var(--primary-orange);">
                             <i class="fa fa-phone"></i> Contact Us
                         </a>
-                        <a href="booking.php" class="btn btn-secondary btn-lg" style="background: var(--light-cream); color: var(--dark-text); border-color: var(--primary-orange);">
+                        <a href="<?= $site ?>booking.php" class="btn btn-secondary btn-lg" style="background: var(--light-cream); color: var(--dark-text); border-color: var(--primary-orange);">
                             <i class="fa fa-calendar"></i> Book Now
                         </a>
                     </div>
