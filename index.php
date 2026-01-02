@@ -548,20 +548,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="service.php" class="icon-cell">
+									<a href="<?= $site ?>services/makeup-services" class="icon-cell">
 										<img src="images/collage/pic1.jpg" alt="Bridal Makeup Service" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="service.php">Bridal <br> Makeup</a>
+										<a href="<?= $site ?>services/makeup-services">Bridal <br> Makeup</a>
 									</h5>
 									<p>
 										Signature HD and Airbrush bridal makeup crafted to enhance natural
 										beauty and create a flawless, long-lasting bridal look.
 									</p>
 									<div class="mt-3">
-										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="<?= $site ?>services/makeup-services" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
@@ -571,20 +571,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="service.php" class="icon-cell">
+									<a href="<?= $site ?>services/makeup-services" class="icon-cell">
 										<img src="images/our-services/s1.png" alt="Engagement & Reception Makeup Service" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="service.php">Engagement & Reception Makeup</a>
+										<a href="<?= $site ?>services/makeup-services">Engagement & Reception Makeup</a>
 									</h5>
 									<p>
 										Elegant and glamorous makeup looks designed for engagements,
 										receptions, and pre-wedding celebrations.
 									</p>
 									<div class="mt-3">
-										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="<?= $site ?>services/makeup-services" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
@@ -594,20 +594,20 @@
 						<div class="col-lg-4 col-md-6 col-sm-6 p-lr0">
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
-									<a href="service.php" class="icon-cell">
+									<a href="<?= $site ?>services/makeup-services" class="icon-cell">
 										<img src="images/our-services/s2.png" alt="Bridal Hair Styling & Draping Service" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
 									<h5 class="dez-tilte">
-										<a href="service.php">Bridal Hair Styling <br> & Draping</a>
+										<a href="<?= $site ?>services/makeup-services">Bridal Hair Styling <br> & Draping</a>
 									</h5>
 									<p>
 										Complete bridal hair styling with saree and dupatta draping to
 										perfectly complement the bridal makeup look.
 									</p>
 									<div class="mt-3">
-										<a href="service.php" class="btn site-button radius-xl btn-sm">View More Details</a>
+										<a href="<?= $site ?>services/makeup-services" class="btn site-button radius-xl btn-sm">View More Details</a>
 									</div>
 								</div>
 							</div>
