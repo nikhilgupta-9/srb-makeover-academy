@@ -308,7 +308,7 @@ $contact = contact_us();
                             <div class="col-lg-3 mb-4">
                                 <div class="academy-feature-box" style="background: white;">
                                     <div class="text-center mb-4">
-                                        <img src="<?= $site ?>images/about/img2.jpg" alt="Live Bridal Makeup Training at SRB Academy" class="img-fluid rounded" style="height: 300px; object-fit: cover; width: 100%;">
+                                        <img src="<?= $site ?>images/our-services/s5.png" alt="Live Bridal Makeup Training at SRB Academy" class="img-fluid rounded" style="height: 300px; object-fit: cover; width: 100%;">
                                     </div>
                                     <h4 class="text-primary">100% Practical Live Training</h4>
                                     <p>
@@ -321,9 +321,9 @@ $contact = contact_us();
                             <div class="col-lg-3 mb-4">
                                 <div class="academy-feature-box" style="background: white;">
                                     <div class="text-center mb-4">
-                                        <img src="<?= $site ?>images/portfolio/3.jpg.jpeg" alt="Certified Makeup Artist Course Delhi" class="img-fluid rounded" style="height: 300px; object-fit: cover; width: 100%;">
+                                        <img src="<?= $site ?>images/our-services/s2.png" alt="Certified Makeup Artist Course Delhi" class="img-fluid rounded" style="height: 300px; object-fit: cover; width: 100%;">
                                     </div>
-                                    <h4 class="text-primary">Internationally Recognized Certification</h4>
+                                    <h4 class="text-primary">Nationally Recognized Certification</h4>
                                     <p>
                                         Get <span class="keyword-highlight">certified makeup artist certification in Delhi</span> that is valid globally.
                                         Our <span class="keyword-highlight">makeup artist course in West Delhi</span> comes with industry-approved certification.
@@ -334,11 +334,11 @@ $contact = contact_us();
                             <div class="col-lg-3 mb-4">
                                 <div class="academy-feature-box" style="background: white;">
                                     <div class="text-center mb-4">
-                                        <img src="<?= $site ?>images/portfolio/45.jpg.jpeg" alt="Makeup Artist Placement Assistance Delhi" class="img-fluid rounded" style="height: 300px; object-fit: cover; width: 100%;">
+                                        <img src="<?= $site ?>images/our-services/s4.png" alt="Makeup Artist Placement Assistance Delhi" class="img-fluid rounded" style="height: 300px; object-fit: cover; width: 100%;">
                                     </div>
-                                    <h4 class="text-primary">100% Placement Assistance</h4>
+                                    <h4 class="text-primary">100% Training Assistance</h4>
                                     <p>
-                                        We provide complete <span class="keyword-highlight">placement support for makeup artists in Delhi NCR</span>.
+                                        We provide complete <span class="keyword-highlight">training support for makeup artists in Delhi NCR</span>.
                                         Connect with top salons, bridal studios, and freelance opportunities.
                                     </p>
                                 </div>

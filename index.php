@@ -1,50 +1,147 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+include_once "config/connect.php";
+include_once "util/function.php";
 
-<!-- Mirrored from beautyzone-html.vercel.app/index-5.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 17 Dec 2025 16:42:14 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+$contact = contact_us();
+$logo = get_logo();
+
+$meta_title = "SRB Makeovers & Academy | Best Makeup Academy & Bridal Makeup in Delhi NCR";
+$meta_description = "SRB Makeovers & Academy - Premier Makeup Academy in Hari Nagar, Tilak Nagar, Janakpuri & West Delhi. Professional bridal makeup courses & certified makeup artist training. Best makeup academy in Delhi with placement assistance.";
+$meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, Makeup academy in Janakpuri, Makeup academy in Rajouri Garden, Makeup academy in West Delhi, Best makeup academy in Delhi, Professional makeup course in Delhi, Bridal makeup course in Delhi, Certified makeup artist course Delhi, Makeup training institute in Delhi NCR, Bridal makeup artist in Delhi, Wedding makeup artist in Delhi, Affordable makeup academy in Delhi";
+?>
+
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
-	<meta name="robots" content="">
-	<meta name="description" content="BeautyZone : Beauty Spa Salon HTML Template">
-	<meta property="og:title" content="BeautyZone : Beauty Spa Salon HTML Template">
-	<meta property="og:description" content="BeautyZone : Beauty Spa Salon HTML Template">
-	<meta name="format-detection" content="telephone=no">
-
-	<!-- FAVICONS ICON -->
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-
-	<!-- PAGE TITLE HERE -->
-	<title>BeautyZone : Beauty Spa Salon HTML Template </title>
-
-	<!-- MOBILE SPECIFIC -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!--[if lt IE 9]>
-	<script src="js/html5shiv.min.js"></script>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	<!-- STYLESHEETS -->
-	<link rel="stylesheet" type="text/css" href="css/plugins.css">
-	<link rel="stylesheet" type="text/css" href="css/style.min.css">
-	<link rel="stylesheet" type="text/css" href="css/templete.min.css">
-	<link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-2.css">
-	<link rel="stylesheet" type="text/css" href="css/styleSwitcher.css">
-	<link rel="stylesheet" type="text/css" href="plugins/perfect-scrollbar/css/perfect-scrollbar.css">
-	<!-- Revolution Slider Css -->
-	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/layers.css">
-	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
-	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
-	<!-- Revolution Navigation Style -->
-
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- Basic Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title><?php echo $meta_title; ?></title>
+    <meta name="description" content="<?php echo $meta_description; ?>">
+    <meta name="keywords" content="<?php echo $meta_keywords; ?>">
+    
+    <!-- Author & Copyright -->
+    <meta name="author" content="SRB Makeovers & Academy">
+    <meta name="copyright" content="SRB Makeovers & Academy">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- Geographic Meta Tags (Important for Local SEO) -->
+    <meta name="geo.region" content="IN-DL">
+    <meta name="geo.placename" content="Delhi">
+    <meta name="geo.position" content="28.644800;77.216721">
+    <meta name="ICBM" content="28.644800, 77.216721">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo $site; ?>">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo $site; ?>">
+    <meta property="og:title" content="<?php echo $meta_title; ?>">
+    <meta property="og:description" content="<?php echo $meta_description; ?>">
+    <meta property="og:image" content="<?php echo $site; ?>images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="SRB Makeovers & Academy - Best Makeup Academy in Delhi">
+    <meta property="og:site_name" content="SRB Makeovers & Academy">
+    <meta property="og:locale" content="en_IN">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?php echo $site; ?>">
+    <meta property="twitter:title" content="<?php echo $meta_title; ?>">
+    <meta property="twitter:description" content="<?php echo $meta_description; ?>">
+    <meta property="twitter:image" content="<?php echo $site; ?>images/twitter-image.jpg">
+    
+    <!-- Additional Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "SRB Makeovers & Academy",
+      "description": "Premier Makeup Academy and Bridal Makeup Services in Delhi NCR",
+      "url": "<?php echo $site; ?>",
+      "telephone": "+91-<?= $contact['phone'] ?>",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "<?= $contact['address'] ?>",
+        "addressLocality": "Hari Nagar",
+        "addressRegion": "Delhi",
+        "postalCode": "110064",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "28.644800",
+        "longitude": "77.216721"
+      },
+      "openingHours": "Mo-Sa 09:00-20:00",
+      "priceRange": "₹500 - ₹25,000",
+      "image": "<?php echo $site . $logo; ?>",
+      "sameAs": [
+        "<?= $contact['facebook'] ?>",
+        "<?= $contact['instagram'] ?>",
+        "https://youtube.com/shorts/nnlseyKyXDA?si=flXGMdF5A2ePJktL"
+      ]
+    }
+    </script>
+    
+    <!-- Course Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Professional Makeup Artist Course",
+      "description": "Certified makeup artist course in Delhi with placement assistance",
+      "provider": {
+        "@type": "Organization",
+        "name": "SRB Makeovers & Academy",
+        "sameAs": "<?php echo $site; ?>"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "INR",
+        "price": "25000"
+      }
+    }
+    </script>
+    
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $site; ?>images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/x-icon" href="<?php echo $site; ?>images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $site; ?>images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $site; ?>images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo $site; ?>images/favicon/site.webmanifest">
+    
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="<?php echo $site; ?>css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site; ?>css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site; ?>css/templete.min.css">
+    <link class="skin" rel="stylesheet" type="text/css" href="<?php echo $site; ?>css/skin/skin-1.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site; ?>css/styleSwitcher.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site; ?>plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="<?php echo $site; ?>css/style.min.css" as="style">
+    <link rel="preload" href="<?php echo $site; ?>images/logo.png" as="image">
+    
+    <!-- Mobile Specific -->
+    <meta name="theme-color" content="#fdb26f">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="SRB Makeovers">
+    
+    <!--[if lt IE 9]>
+    <script src="<?php echo $site; ?>js/html5shiv.min.js"></script>
+    <script src="<?php echo $site; ?>js/respond.min.js"></script>
+    <![endif]-->
 </head>
 <style>
 	.video-card {
@@ -130,7 +227,7 @@
 
 <body id="bg">
 	<div class="page-wraper">
-		<div id="loading-area"></div>
+		<!-- <div id="loading-area"></div> -->
 		<?php
 		include_once "includes/header.php";
 		?>
@@ -1420,7 +1517,7 @@
 					FROM portfolio_items p 
 					LEFT JOIN portfolio_categories c ON p.category_id = c.id 
 					WHERE p.status = 'active' 
-					ORDER BY rand()
+					ORDER BY rand() LIMIT 20
 				";
 					$portfolio_result = mysqli_query($conn, $portfolio_query);
 					$portfolio_items = mysqli_fetch_all($portfolio_result, MYSQLI_ASSOC);
@@ -1449,7 +1546,8 @@
                                     $category_slug = isset($item['category_slug']) ? $item['category_slug'] : '';
                                     $image_path = $site . "admin/uploads/portfolio/" . $item['image_path'];
                                     ?>
-									<li class="<?= $category_slug ?> card-container col-lg-3 col-md-6 col-sm-6 m-b15">
+									<li class="<?= $category_slug ?> card-container col-lg-3 col-md-6 col-sm-6 col-6 m-b15">
+
 										<div class="dlab-box">
 											<div class="dlab-media">
 												<img src="<?= $image_path ?>" alt="<?= htmlspecialchars($item['title']) ?>">

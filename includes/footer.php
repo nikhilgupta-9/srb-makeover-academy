@@ -40,7 +40,7 @@ $gallery = get_gallery();
 							<li><a href="<?= $site ?>portfolio/">Our Portfolio</a></li>
 							<li><a href="<?= $site ?>prices/">Our Pricing</a></li>
 							<li><a href="https://wa.me/91<?= $contact['phone']?>text=Hello%20I%20am%20interested%20in%20your%20makeup%20services.%20Please%20share%20details.">Booking Now</a></li>
-							<li><a href="contact.php">Contact Us</a></li>
+							<li><a href="<?=$site?>contact/">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
@@ -85,11 +85,11 @@ $gallery = get_gallery();
 							</form>
 						</div>
 						<ul class="list-inline m-a0">
-							<li><a target="_blank" href="https://www.facebook.com/" class="site-button facebook circle "><i class="fa fa-facebook"></i></a></li>
-							<li><a target="_blank" href="https://share.google/vbdWhg3X1A6FwZWFk" class="site-button google-plus circle "><i class="fa fa-google-plus"></i></a></li>
-							<li><a target="_blank" href="https://www.linkedin.com/" class="site-button linkedin circle "><i class="fa fa-linkedin"></i></a></li>
-							<li><a target="_blank" href="https://www.instagram.com/" class="site-button instagram circle "><i class="fa fa-instagram"></i></a></li>
-							<li><a target="_blank" href="https://twitter.com/" class="site-button twitter circle "><i class="fa fa-twitter"></i></a></li>
+							<li><a target="_blank" href="https://www.facebook.com/share/1AMn4Lgjgn/?mibextid=wwXIfr" class="site-button facebook circle "><i class="fa fa-facebook"></i></a></li>
+							<li><a target="_blank" href="https://share.google/vbdWhg3X1A6FwZWFk" class="site-button twitter circle "><i class="fa fa-google-plus"></i></a></li>
+							<li><a target="_blank" href="https://www.instagram.com/saumya.batra_?igsh=MXN3MTJ0MTI0NWFydQ%3D%3D&utm_source=qr" class="site-button instagram circle "><i class="fa fa-instagram"></i></a></li>
+							<li><a target="_blank" href="https://youtube.com/shorts/nnlseyKyXDA?si=flXGMdF5A2ePJktL" class="site-button google-plus circle "><i class="fa fa-youtube"></i></a></li>
+							<!--<li><a target="_blank" href="https://twitter.com/" class="site-button twitter circle "><i class="fa fa-twitter"></i></a></li>-->
 						</ul>
 					</div>
 				</div>
@@ -104,8 +104,8 @@ $gallery = get_gallery();
 				<div class="col-lg-6 col-md-6 col-sm-6 text-center text-md-right ">
 					<div class="widget-link ">
 						<ul>
-							<li><a href="contact.html"> Help Desk</a></li>
-							<li><a href="contact.html"> Privacy Policy</a></li>
+							<li><a href="<?=$site?>contact/"> Help Desk</a></li>
+							<li><a href="#"> Privacy Policy</a></li>
 						</ul>
 					</div>
 				</div>

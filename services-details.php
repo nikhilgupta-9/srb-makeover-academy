@@ -213,7 +213,7 @@ $whatsapp_url = "https://wa.me/" . $whatsapp_number . "?text=" . $whatsapp_messa
 									<ul class="service-list m-b30">
 										<?php foreach ($all_services as $serv): ?>
 											<li class="<?= ($serv['slug_url'] == $service_slug) ? 'active' : '' ?>">
-												<a href="<?= $site ?>service-details<?= htmlspecialchars($serv['slug_url']) ?>">
+												<a href="<?= $site ?>service-details/<?= htmlspecialchars($serv['slug_url']) ?>">
 													<?= htmlspecialchars($serv['pro_name']) ?>
 												</a>
 											</li>
@@ -454,15 +454,15 @@ $whatsapp_url = "https://wa.me/" . $whatsapp_number . "?text=" . $whatsapp_messa
 													<div class="row">
 														<div class="col-md-6">
 															<h6 class="text-theme-primary">SRB Makeover Salon:</h6>
-															<p><i class="fa fa-map-marker-alt text-theme-primary mr-2"></i> [Your Salon Address]</p>
-															<p><i class="fa fa-phone text-theme-primary mr-2"></i> +91-XXXXXXXXXX</p>
-															<p><i class="fab fa-whatsapp text-theme-primary mr-2"></i> +91-XXXXXXXXXX</p>
+															<p><i class="fa fa-map-marker-alt text-theme-primary mr-2"></i> <?=$contact['address']?></p>
+															<p><i class="fa fa-phone text-theme-primary mr-2"></i> +91-<?=$contact['phone']?></p>
+															<p><i class="fab fa-whatsapp text-theme-primary mr-2"></i> +91-<?=$contact['wp_number']?></p>
 														</div>
 														<div class="col-md-6">
 															<h6 class="text-theme-primary">SRB Academy:</h6>
-															<p><i class="fa fa-map-marker-alt text-theme-primary mr-2"></i> [Your Academy Address]</p>
-															<p><i class="fa fa-phone text-theme-primary mr-2"></i> +91-XXXXXXXXXX</p>
-															<p><i class="fa fa-envelope text-theme-primary mr-2"></i> academy@srbmakeover.com</p>
+															<p><i class="fa fa-map-marker-alt text-theme-primary mr-2"></i> <?=$contact['address']?></p>
+															<p><i class="fa fa-phone text-theme-primary mr-2"></i> +91-<?=$contact['phone']?></p>
+															<p><i class="fa fa-envelope text-theme-primary mr-2"></i> <?=$contact['email']?></p>
 														</div>
 													</div>
 													<div class="m-t10">
@@ -475,31 +475,7 @@ $whatsapp_url = "https://wa.me/" . $whatsapp_number . "?text=" . $whatsapp_messa
 										</div>
 									</div>
 
-									<!-- Still have questions? -->
-									<div class="text-center m-t30">
-										<div class="bg-theme-secondary p-3 radius-sm border-theme-primary">
-											<h4 class="m-b10">Still have questions?</h4>
-											<p class="m-b20">We're here to help! Contact us directly for personalized assistance.</p>
-											<div class="row justify-content-center">
-												<div class="col-md-4 m-b10">
-													<a href="<?= $whatsapp_url ?>" class="site-button btn-block"
-														style="background: #25d366; border-color: #25d366;" target="_blank">
-														<i class="fab fa-whatsapp"></i> WhatsApp Now
-													</a>
-												</div>
-												<div class="col-md-4 m-b10">
-													<a href="tel:+91<?= $contact['phone'] ?>" class="site-button btn-block btn-theme-primary">
-														<i class="fa fa-phone"></i> Call Us
-													</a>
-												</div>
-												<div class="col-md-4 m-b10">
-													<a href="<?= $site ?>contact/" class="site-button btn-block btn-dark">
-														<i class="fa fa-envelope"></i> Send Email
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
+									
 								</div>
 								
 

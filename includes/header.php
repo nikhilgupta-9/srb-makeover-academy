@@ -23,10 +23,10 @@ $logo = get_logo();
 					<ul>
 						<li><a target="_blank" href="<?= $contact['facebook'] ?>" class="site-button-link facebook hover"><i class="fa fa-facebook"></i></a></li>
 						<li><a target="_blank" href="https://share.google/vbdWhg3X1A6FwZWFk" class="site-button-link google-plus hover"><i class="fa fa-google-plus"></i></a></li>
-						<li><a target="_blank" href="<?= $contact['twitter'] ?>" class="site-button-link twitter hover"><i class="fa fa-twitter"></i></a></li>
 						<li><a target="_blank" href="<?= $contact['instagram'] ?>" class="site-button-link instagram hover"><i class="fa fa-instagram"></i></a></li>
-						<li><a target="_blank" href="<?= $contact['linkdin'] ?>" class="site-button-link linkedin hover"><i class="fa fa-linkedin"></i></a></li>
-						<li><a target="_blank" href="https://www.youtube.com/" class="site-button-link youtube hover"><i class="fa fa-youtube-play"></i></a></li>
+						<!--<li><a target="_blank" href="<?= $contact['twitter'] ?>" class="site-button-link twitter hover"><i class="fa fa-twitter"></i></a></li>-->
+						<!--<li><a target="_blank" href="<?= $contact['linkdin'] ?>" class="site-button-link linkedin hover"><i class="fa fa-linkedin"></i></a></li>-->
+						<li><a target="_blank" href="https://youtube.com/shorts/nnlseyKyXDA?si=flXGMdF5A2ePJktL" class="site-button-link youtube hover"><i class="fa fa-youtube-play"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -81,11 +81,11 @@ $logo = get_logo();
 						</li>
 
 						<li class="<?= ($currentPage == 'contact.php') ? 'active' : ''; ?>">
-							<a href="<?= $site ?>contact.php">Contact</a>
+							<a href="<?= $site ?>contact/">Contact</a>
 						</li>
 
 						<li>
-							<a href="<?= $site ?>booking.php" class="site-button ">Book Now</a>
+							<a href="https://wa.me/91<?= $contact['phone']?>text=Hello%20I%20am%20interested%20in%20your%20makeup%20services.%20Please%20share%20details." class="site-button ">Book Now</a>
 						</li>
 					</ul>
 				</div>

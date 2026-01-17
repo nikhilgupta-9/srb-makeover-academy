@@ -14,10 +14,10 @@ if ($local) {
     $site = "http://localhost/srb-makeover/";
 } else {
     $host = 'localhost';
-    $username = 'u799879276_soft_tech_db';
-    $password = 'z$Lk+EB4U#';
-    $dbName = 'u799879276_soft_tech_db';
-    $site = 'https://codewithnikhil.in/';
+    $username = 'u950539402_srb_makeover';
+    $password = '+OrTfm6E8g';
+    $dbName = 'u950539402_srb_makeover';
+    $site = 'https://lightslategray-swallow-503557.hostingersite.com/';
 }
 
 // Make `$site` global
