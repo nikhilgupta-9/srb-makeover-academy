@@ -4100,8 +4100,8 @@ ol.comment-list li.comment {
   -o-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-      color: #000000;
-    background-color: #fdb07b;
+    color: #060606;
+    background-color: brown;
     border-radius: 50%;
     padding: 5px;
     height: 50px;
@@ -4110,8 +4110,8 @@ ol.comment-list li.comment {
 .owl-btn-center-lr .owl-nav .owl-next {
   left: auto !important;
   right: 0;
-     color: #000000;
-    background-color: #fdb07b;
+  color: #060606;
+    background-color: brown;
     border-radius: 50%;
     padding: 5px;
     height: 50px;

@@ -115,3 +115,61 @@ $gallery = get_gallery();
 </footer>
 <!-- Footer END-->
 <button class="scroltop fa fa-chevron-up"></button>
+
+<div class="floating-icons">
+	<!-- WhatsApp -->
+	<a href="https://wa.me/91<?= $contact['wp_number'] ?>" target="_blank" class="float-btn whatsapp"
+		title="Chat on WhatsApp">
+		<i class="fa fa-whatsapp"></i>
+	</a>
+
+	<!-- Call -->
+	<a href="tel:+91<?= $contact['phone'] ?>" class="float-btn call" title="Call Now">
+		<i class="fa fa-phone"></i>
+	</a>
+</div>
+
+
+<style>
+	/* Floating container */
+	.floating-icons {
+		position: fixed;
+		bottom: 96px;
+		right: 20px;
+		z-index: 9999;
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	/* Common button style */
+	.float-btn {
+		width: 55px;
+		height: 55px;
+		border-radius: 50%;
+		color: #fff;
+		font-size: 26px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+
+	/* Hover effect */
+	.float-btn:hover {
+		transform: scale(1.1);
+		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+	}
+
+	/* WhatsApp */
+	.whatsapp {
+		background: #25D366;
+	}
+
+	/* Call */
+	.call {
+		background: #e53935;
+	}
+</style>

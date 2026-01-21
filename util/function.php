@@ -154,6 +154,46 @@ function get_services(): array
     return $products; // returns an array of 6 latest active products
 }
 
+function get_hair_services(): array
+{
+    global $conn, $site;
+
+    $sql_pro = "SELECT p.*, 
+                       sc.categories AS subcategory_name,
+                       sc.slug_url AS subcategory_slug,
+                       c.categories AS category_name
+                FROM `products` p
+                LEFT JOIN sub_categories sc ON sc.cate_id = p.pro_sub_cate
+                LEFT JOIN categories c ON c.cate_id = p.pro_cate
+                WHERE p.pro_sub_cate = 12485 
+                AND p.status = 1
+                ORDER BY p.trending DESC, p.id ASC";
+    
+    $res_pro = mysqli_query($conn, $sql_pro);
+
+    $products = [];
+
+    if ($res_pro) {
+        while ($row_pro = mysqli_fetch_assoc($res_pro)) {
+            // Generate SEO-friendly URL
+            $row_pro['service_url'] = $site . "service-details/" . $row_pro['slug_url'];
+            
+            // Generate proper image path
+            $row_pro['image_path'] = $site . "admin/assets/img/uploads/" . $row_pro['pro_img'];
+            
+            // Add location keywords for SEO
+            $row_pro['seo_locations'] = "West Delhi, Janakpuri, Rajouri Garden, Delhi NCR";
+            
+            // Add alt text for images
+            $row_pro['image_alt'] = $row_pro['pro_name'] . " Service | SRB Makeovers & Academy | " . $row_pro['seo_locations'];
+            
+            $products[] = $row_pro;
+        }
+    }
+
+    return $products;
+}
+
 function get_sub_category()
 {
     global $conn;
@@ -422,7 +462,7 @@ function get_product_sub_cat() {
         FROM products p
         LEFT JOIN sub_categories sc
             ON sc.cate_id = p.pro_sub_cate
-            AND sc.slug_url = ?
+            WHERE sc.slug_url = ?
     ");
 
     $stmt->bind_param("s", $alias);

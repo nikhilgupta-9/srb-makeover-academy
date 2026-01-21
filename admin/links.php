@@ -1,7 +1,7 @@
 <!-- links.php -->
 <!-- Base URL Configuration -->
 <?php
-$base_url = "http://" . $_SERVER['HTTP_HOST'] . "/srb-makeover/admin/";
+$base_url = "https://srbmakeoversandacademy.in/admin/";
 ?>
 
 <!-- Bootstrap & jQuery -->

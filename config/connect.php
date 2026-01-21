@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL);
-ini_set('display_errors', 1);
+ini_set('display_errors', 0);
 
 
 // Database Configuration
@@ -17,7 +17,7 @@ if ($local) {
     $username = 'u950539402_srb_makeover';
     $password = '+OrTfm6E8g';
     $dbName = 'u950539402_srb_makeover';
-    $site = 'https://lightslategray-swallow-503557.hostingersite.com/';
+    $site = 'https://srbmakeoversandacademy.in/';
 }
 
 // Make `$site` global

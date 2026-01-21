@@ -14,134 +14,127 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 <html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
-    <!-- Basic Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Primary SEO Meta Tags -->
-    <title><?php echo $meta_title; ?></title>
-    <meta name="description" content="<?php echo $meta_description; ?>">
-    <meta name="keywords" content="<?php echo $meta_keywords; ?>">
-    
-    <!-- Author & Copyright -->
-    <meta name="author" content="SRB Makeovers & Academy">
-    <meta name="copyright" content="SRB Makeovers & Academy">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    
-    <!-- Geographic Meta Tags (Important for Local SEO) -->
-    <meta name="geo.region" content="IN-DL">
-    <meta name="geo.placename" content="Delhi">
-    <meta name="geo.position" content="28.644800;77.216721">
-    <meta name="ICBM" content="28.644800, 77.216721">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="<?php echo $site; ?>">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="<?php echo $site; ?>">
-    <meta property="og:title" content="<?php echo $meta_title; ?>">
-    <meta property="og:description" content="<?php echo $meta_description; ?>">
-    <meta property="og:image" content="<?php echo $site; ?>images/og-image.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="SRB Makeovers & Academy - Best Makeup Academy in Delhi">
-    <meta property="og:site_name" content="SRB Makeovers & Academy">
-    <meta property="og:locale" content="en_IN">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="<?php echo $site; ?>">
-    <meta property="twitter:title" content="<?php echo $meta_title; ?>">
-    <meta property="twitter:description" content="<?php echo $meta_description; ?>">
-    <meta property="twitter:image" content="<?php echo $site; ?>images/twitter-image.jpg">
-    
-    <!-- Additional Local Business Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BeautySalon",
-      "name": "SRB Makeovers & Academy",
-      "description": "Premier Makeup Academy and Bridal Makeup Services in Delhi NCR",
-      "url": "<?php echo $site; ?>",
-      "telephone": "+91-<?= $contact['phone'] ?>",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "<?= $contact['address'] ?>",
-        "addressLocality": "Hari Nagar",
-        "addressRegion": "Delhi",
-        "postalCode": "110064",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "28.644800",
-        "longitude": "77.216721"
-      },
-      "openingHours": "Mo-Sa 09:00-20:00",
-      "priceRange": "₹500 - ₹25,000",
-      "image": "<?php echo $site . $logo; ?>",
-      "sameAs": [
-        "<?= $contact['facebook'] ?>",
-        "<?= $contact['instagram'] ?>",
-        "https://youtube.com/shorts/nnlseyKyXDA?si=flXGMdF5A2ePJktL"
-      ]
-    }
-    </script>
-    
-    <!-- Course Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Course",
-      "name": "Professional Makeup Artist Course",
-      "description": "Certified makeup artist course in Delhi with placement assistance",
-      "provider": {
-        "@type": "Organization",
-        "name": "SRB Makeovers & Academy",
-        "sameAs": "<?php echo $site; ?>"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "INR",
-        "price": "25000"
-      }
-    }
-    </script>
-    
-    <!-- FAVICONS -->
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $site; ?>images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/x-icon" href="<?php echo $site; ?>images/favicon/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $site; ?>images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $site; ?>images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="<?php echo $site; ?>images/favicon/site.webmanifest">
-    
-    <!-- STYLESHEETS -->
-    <link rel="stylesheet" type="text/css" href="<?php echo $site; ?>css/plugins.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $site; ?>css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $site; ?>css/templete.min.css">
-    <link class="skin" rel="stylesheet" type="text/css" href="<?php echo $site; ?>css/skin/skin-1.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $site; ?>css/styleSwitcher.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $site; ?>plugins/perfect-scrollbar/css/perfect-scrollbar.css">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Preload Critical Resources -->
-    <link rel="preload" href="<?php echo $site; ?>css/style.min.css" as="style">
-    <link rel="preload" href="<?php echo $site; ?>images/logo.png" as="image">
-    
-    <!-- Mobile Specific -->
-    <meta name="theme-color" content="#fdb26f">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="SRB Makeovers">
-    
-    <!--[if lt IE 9]>
-    <script src="<?php echo $site; ?>js/html5shiv.min.js"></script>
-    <script src="<?php echo $site; ?>js/respond.min.js"></script>
-    <![endif]-->
+	<!-- Basic Meta Tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Primary SEO Meta Tags -->
+	<title><?php echo $meta_title; ?></title>
+	<meta name="description" content="<?php echo $meta_description; ?>">
+	<meta name="keywords" content="<?php echo $meta_keywords; ?>">
+
+	<!-- Author & Copyright -->
+	<meta name="author" content="SRB Makeovers & Academy">
+	<meta name="copyright" content="SRB Makeovers & Academy">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- Geographic Meta Tags (Important for Local SEO) -->
+	<meta name="geo.region" content="IN-DL">
+	<meta name="geo.placename" content="Delhi">
+	<meta name="geo.position" content="28.644800;77.216721">
+	<meta name="ICBM" content="28.644800, 77.216721">
+
+	<!-- Canonical URL -->
+	<link rel="canonical" href="<?php echo $site; ?>">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="<?php echo $site; ?>">
+	<meta property="og:title" content="<?php echo $meta_title; ?>">
+	<meta property="og:description" content="<?php echo $meta_description; ?>">
+	<meta property="og:image" content="<?php echo $site; ?>images/og-image.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:alt" content="SRB Makeovers & Academy - Best Makeup Academy in Delhi">
+	<meta property="og:site_name" content="SRB Makeovers & Academy">
+	<meta property="og:locale" content="en_IN">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="<?php echo $site; ?>">
+	<meta property="twitter:title" content="<?php echo $meta_title; ?>">
+	<meta property="twitter:description" content="<?php echo $meta_description; ?>">
+	<meta property="twitter:image" content="<?php echo $site; ?>images/twitter-image.jpg">
+
+	<!-- Additional Local Business Schema -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "BeautySalon",
+			"name": "SRB Makeovers & Academy",
+			"description": "Premier Makeup Academy and Bridal Makeup Services in Delhi NCR",
+			"url": "<?php echo $site; ?>",
+			"telephone": "+91-<?= $contact['phone'] ?>",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "<?= $contact['address'] ?>",
+				"addressLocality": "Hari Nagar",
+				"addressRegion": "Delhi",
+				"postalCode": "110064",
+				"addressCountry": "IN"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "28.644800",
+				"longitude": "77.216721"
+			},
+			"openingHours": "Mo-Sa 09:00-20:00",
+			"priceRange": "₹500 - ₹25,000",
+			"image": "<?php echo $site . $logo; ?>",
+			"sameAs": [
+				"<?= $contact['facebook'] ?>",
+				"<?= $contact['instagram'] ?>",
+				"https://youtube.com/shorts/nnlseyKyXDA?si=flXGMdF5A2ePJktL"
+			]
+		}
+	</script>
+
+	<!-- Course Schema -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Course",
+			"name": "Professional Makeup Artist Course",
+			"description": "Certified makeup artist course in Delhi with placement assistance",
+			"provider": {
+				"@type": "Organization",
+				"name": "SRB Makeovers & Academy",
+				"sameAs": "<?php echo $site; ?>"
+			},
+			"offers": {
+				"@type": "Offer",
+				"priceCurrency": "INR",
+				"price": "25000"
+			}
+		}
+	</script>
+
+	<!-- FAVICONS -->
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $site; ?>images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/x-icon" href="<?php echo $site; ?>images/favicon/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo $site; ?>images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo $site; ?>images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="<?php echo $site; ?>images/favicon/site.webmanifest">
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" type="text/css" href="css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="css/templete.min.css">
+	<link class="skin" rel="stylesheet" type="text/css" href="css/skin/skin-2.css">
+	<link rel="stylesheet" type="text/css" href="css/styleSwitcher.css">
+	<link rel="stylesheet" type="text/css" href="plugins/perfect-scrollbar/css/perfect-scrollbar.css">
+	<!-- Revolution Slider Css -->
+	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
+	<link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
+	<!-- Revolution Navigation Style -->
+
+	<!-- Mobile Specific -->
+	<meta name="theme-color" content="#fdb26f">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="SRB Makeovers">
+
 </head>
 <style>
 	.video-card {
@@ -333,7 +326,7 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 									data-paddingleft="[0,0,0,0]"
 									style="z-index: 11;">
 									<div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%">
-										<img src="images/main-slider/slider-7-new3.png" alt="" data-ww="['965px','965px','500px','300px']" data-hh="['894px','894px','463px','278px']" width="407" height="200" data-no-retina>
+										<img src="<?= $site ?>images/main-slider/slider-7-new3.png" alt="" data-ww="['965px','965px','500px','300px']" data-hh="['894px','894px','463px','278px']" width="407" height="200" data-no-retina>
 									</div>
 								</div>
 								<!-- LAYER NR. 2 -->
@@ -463,18 +456,18 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 						<div class="item">
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
-									<a href="service.php">
+									<a href="<?= $site ?>services/makeup-services">
 										<img src="images/portfolio/57.jpg.jpeg" alt="Bridal Makeup Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="service.php">Bridal Makeup</a></h6>
+										<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Bridal Makeup</a></h6>
 										<p>Complete bridal transformation for weddings, engagements & receptions with flawless, long-lasting makeup.</p>
 										<div class="service-price-tag">₹7,000 - ₹25,000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
 									<h2>01</h2>
-									<h6 class="dlab-title"><a href="service.php">Bridal Makeup</a></h6>
+									<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Bridal Makeup</a></h6>
 								</div>
 							</div>
 						</div>
@@ -484,14 +477,14 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-info text-center">
 									<h2>02</h2>
-									<h6 class="dlab-title"><a href="service.php">Makeup & Styling</a></h6>
+									<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Makeup & Styling</a></h6>
 								</div>
 								<div class="dlab-media">
-									<a href="service.php">
+									<a href="<?= $site ?>services/makeup-services">
 										<img src="images/portfolio/m1.png" alt="Makeup and Styling Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="service.php">Makeup & Styling</a></h6>
+										<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Makeup & Styling</a></h6>
 										<p>Professional makeup for events, fashion shows, video shoots, commercials, workshops & advertising campaigns.</p>
 										<div class="service-price-tag">₹2000 - ₹7,500</div>
 									</div>
@@ -503,18 +496,18 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 						<div class="item">
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
-									<a href="service.php">
+									<a href="<?= $site ?>services/makeup-services">
 										<img src="images/portfolio/m2.png" alt="Facial Treatment Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="service.php">Facial Treatments</a></h6>
+										<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Facial Treatments</a></h6>
 										<p>Revitalizing facials customized for different skin types, leaving your skin glowing and rejuvenated.</p>
 										<div class="service-price-tag">₹550 - ₹3,500</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
 									<h2>03</h2>
-									<h6 class="dlab-title"><a href="service.php">Facial</a></h6>
+									<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Facial</a></h6>
 								</div>
 							</div>
 						</div>
@@ -524,14 +517,14 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-info text-center">
 									<h2>04</h2>
-									<h6 class="dlab-title"><a href="service.php">Hair Styling</a></h6>
+									<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Hair Styling</a></h6>
 								</div>
 								<div class="dlab-media">
-									<a href="service.php">
+									<a href="<?= $site ?>services/makeup-services">
 										<img src="images/portfolio/35.jpg.jpeg" alt="Hair Styling Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="service.php">Hair Styling</a></h6>
+										<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Hair Styling</a></h6>
 										<p>Professional hair styling for all occasions. From simple looks to elaborate bridal hairstyles.</p>
 										<div class="service-price-tag">₹500 - ₹2,000</div>
 									</div>
@@ -543,18 +536,18 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 						<div class="item">
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
-									<a href="service.php">
+									<a href="<?= $site ?>services/makeup-services">
 										<img src="images/portfolio/67.jpg" alt="Hair Coloring Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="service.php">Hair Coloring</a></h6>
+										<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Hair Coloring</a></h6>
 										<p>Professional hair coloring services with premium products. Fashion streaks & root touch-up available.</p>
 										<div class="service-price-tag">₹550 - ₹2,500</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
 									<h2>05</h2>
-									<h6 class="dlab-title"><a href="service.php">Hair Color</a></h6>
+									<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Hair Color</a></h6>
 								</div>
 							</div>
 						</div>
@@ -564,14 +557,14 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-info text-center">
 									<h2>06</h2>
-									<h6 class="dlab-title"><a href="service.php">Waxing Services</a></h6>
+									<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Waxing Services</a></h6>
 								</div>
 								<div class="dlab-media">
-									<a href="service.php">
+									<a href="<?= $site ?>services/makeup-services">
 										<img src="images/portfolio/68.jpg" alt="Waxing Services">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="service.php">Waxing Services</a></h6>
+										<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Waxing Services</a></h6>
 										<p>Professional waxing for face and body with minimal discomfort. From eyebrows to full body waxing.</p>
 										<div class="service-price-tag">₹130 - ₹3,000</div>
 									</div>
@@ -583,18 +576,18 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 						<div class="item">
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-media">
-									<a href="service.php">
+									<a href="<?= $site ?>services/makeup-services">
 										<img src="images/portfolio/69.jpg" alt="Hair Spa Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="service.php">Hair Spa</a></h6>
+										<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Hair Spa</a></h6>
 										<p>Deep conditioning treatment for damaged hair. Restores shine, strength and vitality to your hair.</p>
 										<div class="service-price-tag">₹500 - ₹2,000</div>
 									</div>
 								</div>
 								<div class="dlab-info text-center">
 									<h2>07</h2>
-									<h6 class="dlab-title"><a href="service.php">Hair Spa</a></h6>
+									<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Hair Spa</a></h6>
 								</div>
 							</div>
 						</div>
@@ -604,14 +597,14 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 							<div class="dlab-box bridal-serbx">
 								<div class="dlab-info text-center">
 									<h2>08</h2>
-									<h6 class="dlab-title"><a href="service.php">Pre-Bridal Package</a></h6>
+									<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Pre-Bridal Package</a></h6>
 								</div>
 								<div class="dlab-media">
-									<a href="service.php">
+									<a href="<?= $site ?>services/makeup-services">
 										<img src="images/gallery/b14.jpeg" alt="Pre-Bridal Package Service">
 									</a>
 									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="service.php">Pre-Bridal Package</a></h6>
+										<h6 class="dlab-title"><a href="<?= $site ?>services/makeup-services">Pre-Bridal Package</a></h6>
 										<p>Complete pre-wedding beauty regimen including facials, waxing, hair treatments and skin preparation.</p>
 										<div class="service-price-tag">₹7,000 - ₹20,000</div>
 									</div>
@@ -646,7 +639,7 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 							<div class="icon-bx-wraper center p-a30">
 								<div class="icon-lg radius m-b20">
 									<a href="<?= $site ?>services/makeup-services" class="icon-cell">
-										<img src="images/collage/pic1.jpg" alt="Bridal Makeup Service" class="service-image radius-xl" height="100px" width="100px">
+										<img src="images/our-services/s5.png" alt="Bridal Makeup Service" class="service-image radius-xl" height="100px" width="100px">
 									</a>
 								</div>
 								<div class="icon-content">
@@ -1006,486 +999,83 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 					</div>
 					<div class="img-carousel owl-carousel owl-theme owl-btn-3 owl-dots-primary-big owl-btn-center-lr owl-loade owl-loaded owl-drag">
 						<!-- Service 1: Hair Henna -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/portfolio/73.jpg" alt="Hair Henna Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Hair Henna</a></h6>
-										<p>Natural henna treatment for conditioning, color, and shine. Chemical-free alternative for beautiful hair.</p>
-										<div class="service-price-tag">₹200 - ₹550</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>01</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Hair Henna</a></h6>
+						<?php
+						$hair_services = get_hair_services();
+						$counter = 1; // Counter for numbering
+
+						foreach ($hair_services as $hs):
+							$is_even = ($counter % 2 == 0); // Even numbered items have different layout
+
+							// Get image URL - fallback if image doesn't exist
+							$image_url = "images/hairs/" . strtolower(str_replace(' ', '-', $hs['pro_name'])) . ".jpg";
+							$actual_image = file_exists($image_url) ? $image_url : "images/portfolio/73.jpg";
+
+							// Create slug for service page
+							$service_slug = "service-details/" . $hs['slug_url'];
+
+							// Format price
+							$price_display = "₹" . $hs['selling_price'];
+							if ($hs['mrp'] > $hs['selling_price']) {
+								$price_display = "₹" . $hs['selling_price'] . " - ₹" . $hs['mrp'];
+							}
+						?>
+
+							<!-- Service <?= $counter ?>: <?= $hs['pro_name'] ?> -->
+							<div class="item">
+								<div class="dlab-box bridal-serbx">
+									<?php if ($is_even): ?>
+										<!-- Layout for even items (Image on right) -->
+										<div class="dlab-info text-center">
+											<h2><?= str_pad($counter, 2, '0', STR_PAD_LEFT) ?></h2>
+											<h6 class="dlab-title">
+												<a href="<?= $service_slug ?>"><?= htmlspecialchars($hs['pro_name']) ?></a>
+											</h6>
+										</div>
+										<div class="dlab-media">
+											<a href="<?= $service_slug ?>">
+												<img src="<?= $site . "admin/assets/img/uploads/" . $hs['pro_img'] ?>"
+													alt="<?= htmlspecialchars($hs['pro_name']) ?> Service at SRB Makeovers West Delhi"
+													title="Professional <?= htmlspecialchars($hs['pro_name']) ?> in Delhi NCR">
+											</a>
+											<div class="dlab-media-info">
+												<h6 class="dlab-title">
+													<a href="<?= $service_slug ?>"><?= htmlspecialchars($hs['pro_name']) ?></a>
+												</h6>
+												<p><?= $hs['short_desc'] ?></p>
+												<div class="service-price-tag"><?= $price_display ?></div>
+											</div>
+										</div>
+									<?php else: ?>
+										<!-- Layout for odd items (Image on left) -->
+										<div class="dlab-media">
+											<a href="<?= $service_slug ?>">
+												<img src="<?= $site . "admin/assets/img/uploads/" . $hs['pro_img'] ?>"
+													alt="<?= htmlspecialchars($hs['pro_name']) ?> Service at SRB Makeovers West Delhi"
+													title="Professional <?= htmlspecialchars($hs['pro_name']) ?> in Delhi NCR">
+											</a>
+											<div class="dlab-media-info">
+												<h6 class="dlab-title">
+													<a href="<?= $service_slug ?>"><?= htmlspecialchars($hs['pro_name']) ?></a>
+												</h6>
+												<p><?= $hs['short_desc']?></p>
+												<div class="service-price-tag"><?= $price_display ?></div>
+											</div>
+										</div>
+										<div class="dlab-info text-center">
+											<h2><?= str_pad($counter, 2, '0', STR_PAD_LEFT) ?></h2>
+											<h6 class="dlab-title">
+												<a href="<?= $service_slug ?>"><?= htmlspecialchars($hs['pro_name']) ?></a>
+											</h6>
+										</div>
+									<?php endif; ?>
 								</div>
 							</div>
-						</div>
 
-						<!-- Service 2: Hair Conditioning -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>02</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Hair Conditioning</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/hair-coniditioning.jpg" alt="Hair Conditioning Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Hair Conditioning</a></h6>
-										<p>Deep conditioning treatments to restore moisture, shine, and manageability to dry or damaged hair.</p>
-										<div class="service-price-tag">₹150 - ₹500</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						<?php
+							$counter++;
+						endforeach;
+						?>
 
-						<!-- Service 3: Hair Dressing -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/hair-dressing.jpg" alt="Hair Dressing Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Hair Dressing</a></h6>
-										<p>Complete hair dressing services including styling, setting, and finishing for any occasion.</p>
-										<div class="service-price-tag">₹500 - ₹2,000</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>03</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Hair Dressing</a></h6>
-								</div>
-							</div>
-						</div>
-
-
-
-						<!-- Service 4: Hair Curling -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>04</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Hair Curling</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/hair-curling.jpg" alt="Hair Curling Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Hair Curling</a></h6>
-										<p>Professional curling services using various techniques to create beautiful, lasting curls.</p>
-										<div class="service-price-tag">₹200 - ₹1,000</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 5: Dandruff Hair Falling Treatment -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/dandraf-care.jpg" alt="Dandruff Hair Falling Treatment">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Dandruff Treatment</a></h6>
-										<p>Specialized treatments for dandruff control and hair fall reduction using medicated products.</p>
-										<div class="service-price-tag">₹500 - ₹2,000</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>05</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Dandruff Care</a></h6>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 6: Roller Setting -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>06</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Roller Setting</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/roller-setting.png" alt="Roller Setting Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Roller Setting</a></h6>
-										<p>Classic roller setting for volume and waves. Perfect for traditional looks and special occasions.</p>
-										<div class="service-price-tag">₹500 - ₹1000</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 7: Tong Setting -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/tong-setting.jpg" alt="Tong Setting Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Tong Setting</a></h6>
-										<p>Professional tong setting for perfect curls or waves. Quick and efficient styling solution.</p>
-										<div class="service-price-tag">₹200 - ₹1,000</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>07</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Tong Setting</a></h6>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 8: Blow Dryer -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>08</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Blow Dryer</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/blow-dryer.jpg" alt="Blow Dryer Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Blow Dryer</a></h6>
-										<p>Professional blow drying for smooth, voluminous, or styled hair with perfect finish.</p>
-										<div class="service-price-tag">₹150 - ₹500</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 9: Hair Massage with Pack -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/portfolio/69.jpg" alt="Hair Massage with Pack">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Hair Massage with Pack</a></h6>
-										<p>Relaxing scalp massage with nourishing hair packs to promote hair growth and health.</p>
-										<div class="service-price-tag">₹350 - ₹1000</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>09</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Hair Massage</a></h6>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 10: Pressing -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>10</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Pressing</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/hair-pressing.jpg" alt="Pressing Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Pressing</a></h6>
-										<p>Traditional hair pressing for straight, smooth hair without chemicals. Temporary straightening method.</p>
-										<div class="service-price-tag">₹250 - ₹1,000</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 11: Creaming -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/creaming.png" alt="Creaming Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Creaming</a></h6>
-										<p>Hair creaming treatment for softness, shine, and manageability using premium creams.</p>
-										<div class="service-price-tag">₹500 - ₹2,000</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>11</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Creaming</a></h6>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 12: Hair Spa -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>12</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Hair Spa</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/hair-spa.png" alt="Hair Spa Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Hair Spa</a></h6>
-										<p>Complete hair spa treatment for deep relaxation, nourishment, and hair rejuvenation.</p>
-										<div class="service-price-tag">₹500 - ₹2,000</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 13: Perming -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/perming.png" alt="Perming Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Perming</a></h6>
-										<p>Professional perming services to add permanent curls or waves to straight hair.</p>
-										<div class="service-price-tag">₹2,000 - ₹5,000</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>13</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Perming</a></h6>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 14: Rebonding -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>14</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Rebonding</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/rebonding.png" alt="Rebonding Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Rebonding</a></h6>
-										<p>Permanent hair straightening treatment for ultra-smooth, straight, and manageable hair.</p>
-										<div class="service-price-tag">₹2,500 - ₹6,000</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 15: Smoothing -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/smoothing.png" alt="Smoothing Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Smoothing</a></h6>
-										<p>Hair smoothing treatment for frizz control, shine, and manageable hair without permanent straightening.</p>
-										<div class="service-price-tag">₹1,500 - ₹5,500</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>15</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Smoothing</a></h6>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 16: Keratin -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>16</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Keratin</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/keratin.png" alt="Keratin Treatment">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Keratin</a></h6>
-										<p>Keratin treatment for smooth, shiny, frizz-free hair that lasts for months with proper care.</p>
-										<div class="service-price-tag">₹1,500 - ₹5,500</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 17: Shine Bond -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/shine-bond.png" alt="Shine Bond Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Shine Bond</a></h6>
-										<p>Special treatment for extreme shine, smoothness, and bond repair for damaged hair.</p>
-										<div class="service-price-tag">₹3,000 - ₹8,000</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>17</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Shine Bond</a></h6>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 18: Global Hair Color -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>18</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Global Hair Color</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/Global Hair Color.png" alt="Global Hair Color">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Global Hair Color</a></h6>
-										<p>Complete hair coloring from roots to ends using premium, ammonia-free color products.</p>
-										<div class="service-price-tag">₹1,500 - ₹5,500</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 19: Highlights -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/Highlights.png" alt="Highlights Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Highlights</a></h6>
-										<p>Professional highlighting to add dimension, brightness, and style to your hair.</p>
-										<div class="service-price-tag">₹1,000 - ₹4,000</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>19</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Highlights</a></h6>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 20: Streaking -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>20</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Streaking</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/Streaking.png" alt="Streaking Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Streaking</a></h6>
-										<p>Bold color streaks for a dramatic, fashion-forward look. Perfect for making a style statement.</p>
-										<div class="service-price-tag">₹1,500 - ₹3,500</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 21: Ombre -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/Ombre.png" alt="Ombre Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Ombre</a></h6>
-										<p>Gradient color effect from dark roots to lighter ends. Modern and stylish coloring technique.</p>
-										<div class="service-price-tag">₹2,000 - ₹5,000</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>21</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Ombre</a></h6>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 22: Chunks -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>22</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Chunks</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/Chunks.png" alt="Chunks Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Chunks</a></h6>
-										<p>Bold color chunks for an edgy, contemporary look. Great for adding personality to your style.</p>
-										<div class="service-price-tag">₹1,200 - ₹3,000</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 23: Balayage -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/hairs/Balayage.png" alt="Balayage Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Balayage</a></h6>
-										<p>Hand-painted highlights for a natural, sun-kissed look. Soft and subtle color transition.</p>
-										<div class="service-price-tag">₹2,500 - ₹6,000</div>
-									</div>
-								</div>
-								<div class="dlab-info text-center">
-									<h2>23</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Balayage</a></h6>
-								</div>
-							</div>
-						</div>
-
-						<!-- Service 24: Hair Cuts -->
-						<div class="item">
-							<div class="dlab-box bridal-serbx">
-								<div class="dlab-info text-center">
-									<h2>24</h2>
-									<h6 class="dlab-title"><a href="hair-services.php">Hair Cuts</a></h6>
-								</div>
-								<div class="dlab-media">
-									<a href="hair-services.php">
-										<img src="images/portfolio/73.jpg" alt="Hair Cuts Service">
-									</a>
-									<div class="dlab-media-info">
-										<h6 class="dlab-title"><a href="hair-services.php">Hair Cuts</a></h6>
-										<p>Professional haircuts for all hair types and styles. Consultation included for perfect results.</p>
-										<div class="service-price-tag">₹200 - ₹1,000</div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -1524,62 +1114,62 @@ $meta_keywords = "Makeup academy in Hari Nagar, Makeup academy in Tilak Nagar, M
 					?>
 
 					<div class="site-filters style1 clearfix center">
-                            <ul class="filters" data-toggle="buttons">
-                                <li data-filter="" class="btn active">
-                                    <input type="radio">
-                                    <a href="#"><span>All</span></a>
-                                </li>
-                                <?php while ($category = mysqli_fetch_assoc($categories)): ?>
-                                    <li data-filter="<?= $category['slug'] ?>" class="btn">
-                                        <input type="radio">
-                                        <a href="#"><span><?= $category['name'] ?></span></a>
-                                    </li>
-                                <?php endwhile; ?>
-                            </ul>
-                        </div>
+						<ul class="filters" data-toggle="buttons">
+							<li data-filter="" class="btn active">
+								<input type="radio">
+								<a href="#"><span>All</span></a>
+							</li>
+							<?php while ($category = mysqli_fetch_assoc($categories)): ?>
+								<li data-filter="<?= $category['slug'] ?>" class="btn">
+									<input type="radio">
+									<a href="#"><span><?= $category['name'] ?></span></a>
+								</li>
+							<?php endwhile; ?>
+						</ul>
+					</div>
 
 					<div class="clearfix">
-						
-							<ul id="masonry" class="row sp15 portfolio-box dlab-gallery-listing gallery-grid-4 gallery lightgallery">
-								<?php foreach ($portfolio_items as $item): ?>
-                                    <?php
-                                    $category_slug = isset($item['category_slug']) ? $item['category_slug'] : '';
-                                    $image_path = $site . "admin/uploads/portfolio/" . $item['image_path'];
-                                    ?>
-									<li class="<?= $category_slug ?> card-container col-lg-3 col-md-6 col-sm-6 col-6 m-b15">
 
-										<div class="dlab-box">
-											<div class="dlab-media">
-												<img src="<?= $image_path ?>" alt="<?= htmlspecialchars($item['title']) ?>">
-												<div class="overlay-bx">
-													<div class="spa-port-bx">
-														<div>
-															<h4><a href="portfolio.php"><?= htmlspecialchars($item['title']) ?></a></h4>
-															<?php if ($item['description']): ?>
-																<p><?= substr(htmlspecialchars($item['description']), 0, 60) ?>...</p>
-															<?php endif; ?>
-															<span data-exthumbimage="<?= $image_path ?>"
-																data-src="<?= $image_path ?>"
-																class="check-km"
-																title="<?= htmlspecialchars($item['title']) ?>">
-																<i class="ti-fullscreen"></i>
-															</span>
-														</div>
+						<ul id="masonry" class="row sp15 portfolio-box dlab-gallery-listing gallery-grid-4 gallery lightgallery">
+							<?php foreach ($portfolio_items as $item): ?>
+								<?php
+								$category_slug = isset($item['category_slug']) ? $item['category_slug'] : '';
+								$image_path = $site . "admin/uploads/portfolio/" . $item['image_path'];
+								?>
+								<li class="<?= $category_slug ?> card-container col-lg-3 col-md-6 col-sm-6 col-6 m-b15">
+
+									<div class="dlab-box">
+										<div class="dlab-media">
+											<img src="<?= $image_path ?>" alt="<?= htmlspecialchars($item['title']) ?>">
+											<div class="overlay-bx">
+												<div class="spa-port-bx">
+													<div>
+														<h4><a href="portfolio.php"><?= htmlspecialchars($item['title']) ?></a></h4>
+														<?php if ($item['description']): ?>
+															<p><?= substr(htmlspecialchars($item['description']), 0, 60) ?>...</p>
+														<?php endif; ?>
+														<span data-exthumbimage="<?= $image_path ?>"
+															data-src="<?= $image_path ?>"
+															class="check-km"
+															title="<?= htmlspecialchars($item['title']) ?>">
+															<i class="ti-fullscreen"></i>
+														</span>
 													</div>
 												</div>
 											</div>
 										</div>
-									</li>
-								 <?php endforeach; ?>
-							</ul>
+									</div>
+								</li>
+							<?php endforeach; ?>
+						</ul>
 
-							<!-- View All Button -->
-							<div class="text-center mt-4">
-								<a href="<?= $site ?>portfolio.php" class="btn btn-primary radius-xl">
-									<i class="fas fa-images me-2"></i> View Complete Portfolio
-								</a>
-							</div>
-						
+						<!-- View All Button -->
+						<div class="text-center mt-4">
+							<a href="<?= $site ?>portfolio.php" class="btn btn-primary radius-xl">
+								<i class="fas fa-images me-2"></i> View Complete Portfolio
+							</a>
+						</div>
+
 					</div>
 				</div>
 			</div>

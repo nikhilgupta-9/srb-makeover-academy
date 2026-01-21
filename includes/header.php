@@ -49,7 +49,7 @@ $logo = get_logo();
 				<!-- main nav -->
 				<div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
 					<ul class="nav navbar-nav">
-						<li class="<?= ($currentPage == $site) ? 'active' : ''; ?>">
+						<li class="<?= ($currentPage == '') ? 'active' : ''; ?>">
 							<a href="<?= $site ?>">Home</a>
 						</li>
 
@@ -85,7 +85,7 @@ $logo = get_logo();
 						</li>
 
 						<li>
-							<a href="https://wa.me/91<?= $contact['phone']?>text=Hello%20I%20am%20interested%20in%20your%20makeup%20services.%20Please%20share%20details." class="site-button ">Book Now</a>
+							<a href="https://wa.me/91<?= $contact['phone'] ?>?text=Hello%20I%20am%20interested%20in%20your%20makeup%20services.%20Please%20share%20details." target="_blank" class="site-button ">Book Now</a>
 						</li>
 					</ul>
 				</div>

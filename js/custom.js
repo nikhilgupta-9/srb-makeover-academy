@@ -724,10 +724,10 @@ var BeautyZone = function(){
 	}
 	
 	/* Handle Support ============ */
-	// var handleSupport = function(){
-	// 	var support = '<script id="DZScript" src="https://dzassets.s3.amazonaws.com/w3-global-2.0.js?token=W-30ded6806f6f7f65952d5752e3ceaab6"></script>';
-	// 	jQuery('body').append(support);
-	// }
+	var handleSupport = function(){
+		var support = '<script id="DZScript" src="https://dzassets.s3.amazonaws.com/w3-global-2.0.js?token=W-30ded6806f6f7f65952d5752e3ceaab6"></script>';
+		jQuery('body').append(support);
+	}
 	
 	/* Website Launch Date */ 
 	var WebsiteLaunchDate = new Date();

@@ -136,7 +136,7 @@ $services = get_product_sub_cat();
 												<?= substr($service['short_desc'],0,20) ?> ...
 											</div>
 											<div class="icon-content">
-												<a href="https://wa.me/91<?=$contact['phone']?>?text=Hello%20I%20am%20interested%20in%20your%20<?=$service['pro_name']?>" class="site-button-secondry">Get Quote</a>
+												<a href="https://wa.me/91<?=$contact['phone']?>?text=Hello%20I%20am%20interested%20in%20your%20<?=$service['pro_name']?>%20Makeup%20Service" class="site-button-secondry">Get Quote</a>
 												<a href="<?= $site ?>service-details/<?= $service['slug_url'] ?>" class="site-button-secondry">Learn More</a>
 											</div>
 										</div>
